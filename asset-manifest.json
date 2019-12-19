@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ada-data-story/static/css/main.983498a7.chunk.css",
-    "main.js": "/ada-data-story/static/js/main.50ef6af0.chunk.js",
-    "main.js.map": "/ada-data-story/static/js/main.50ef6af0.chunk.js.map",
-    "runtime-main.js": "/ada-data-story/static/js/runtime-main.858333f0.js",
-    "runtime-main.js.map": "/ada-data-story/static/js/runtime-main.858333f0.js.map",
-    "static/css/2.46bd33cf.chunk.css": "/ada-data-story/static/css/2.46bd33cf.chunk.css",
-    "static/js/2.e0aeb0b7.chunk.js": "/ada-data-story/static/js/2.e0aeb0b7.chunk.js",
-    "static/js/2.e0aeb0b7.chunk.js.map": "/ada-data-story/static/js/2.e0aeb0b7.chunk.js.map",
-    "index.html": "/ada-data-story/index.html",
-    "precache-manifest.2d816a962d3424036c3e8c6f8a056c44.js": "/ada-data-story/precache-manifest.2d816a962d3424036c3e8c6f8a056c44.js",
-    "service-worker.js": "/ada-data-story/service-worker.js",
-    "static/css/2.46bd33cf.chunk.css.map": "/ada-data-story/static/css/2.46bd33cf.chunk.css.map",
-    "static/css/main.983498a7.chunk.css.map": "/ada-data-story/static/css/main.983498a7.chunk.css.map",
-    "static/js/2.e0aeb0b7.chunk.js.LICENSE": "/ada-data-story/static/js/2.e0aeb0b7.chunk.js.LICENSE",
-    "static/media/index.css": "/ada-data-story/static/media/roboto-latin-900italic.ebf6d164.woff2"
+    "main.css": "/food-datastory/static/css/main.983498a7.chunk.css",
+    "main.js": "/food-datastory/static/js/main.1bbba91b.chunk.js",
+    "main.js.map": "/food-datastory/static/js/main.1bbba91b.chunk.js.map",
+    "runtime-main.js": "/food-datastory/static/js/runtime-main.998d1bf9.js",
+    "runtime-main.js.map": "/food-datastory/static/js/runtime-main.998d1bf9.js.map",
+    "static/css/2.1cad061a.chunk.css": "/food-datastory/static/css/2.1cad061a.chunk.css",
+    "static/js/2.e0aeb0b7.chunk.js": "/food-datastory/static/js/2.e0aeb0b7.chunk.js",
+    "static/js/2.e0aeb0b7.chunk.js.map": "/food-datastory/static/js/2.e0aeb0b7.chunk.js.map",
+    "index.html": "/food-datastory/index.html",
+    "precache-manifest.4c974ff287165a5192928570a8839375.js": "/food-datastory/precache-manifest.4c974ff287165a5192928570a8839375.js",
+    "service-worker.js": "/food-datastory/service-worker.js",
+    "static/css/2.1cad061a.chunk.css.map": "/food-datastory/static/css/2.1cad061a.chunk.css.map",
+    "static/css/main.983498a7.chunk.css.map": "/food-datastory/static/css/main.983498a7.chunk.css.map",
+    "static/js/2.e0aeb0b7.chunk.js.LICENSE": "/food-datastory/static/js/2.e0aeb0b7.chunk.js.LICENSE",
+    "static/media/index.css": "/food-datastory/static/media/roboto-latin-900italic.ebf6d164.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.858333f0.js",
-    "static/css/2.46bd33cf.chunk.css",
+    "static/js/runtime-main.998d1bf9.js",
+    "static/css/2.1cad061a.chunk.css",
     "static/js/2.e0aeb0b7.chunk.js",
     "static/css/main.983498a7.chunk.css",
-    "static/js/main.50ef6af0.chunk.js"
+    "static/js/main.1bbba91b.chunk.js"
   ]
 }
