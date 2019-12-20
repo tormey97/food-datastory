@@ -3,6 +3,7 @@ import 'typeface-roboto';
 import Menu from "./components/Menu";
 import DataStory from "./components/DataStory";
 import Introduction from "./components/Introduction";
+import ScrollToTop from "./components/ScrollToTop"
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
 import useStyles from "./styles/main"
@@ -24,32 +25,21 @@ const theme = createMuiTheme({
         secondary: secondaryColor,
     },
 });
-function handleUpdate() {
-    let {
-      action
-    } = this.state.location;
-  
-    if (action === 'PUSH') {
-      window.scrollTo(0, 0);
-    }
-  }
-  const ScrollToTop = () => {
-    window.scrollTo(0, 0);
-    return null;
-  };
 
 function App() {
     const classes = useStyles();
     return (
     <Router>
+        <ScrollToTop />
         <MuiThemeProvider theme={theme}>
             <Menu/>
             <Switch>
                 <Route component={ScrollToTop} path={process.env.PUBLIC_URL + "/search"}>
+                    
                     <Search/>
                 </Route>
                 <Route component={ScrollToTop} path={process.env.PUBLIC_URL + "/dataStory"}>
-                    <DataStory/>
+                   <DataStory/>
                 </Route>
                 <Route component={ScrollToTop} path={process.env.PUBLIC_URL + "/"}>
                     <Introduction/>
