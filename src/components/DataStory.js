@@ -405,7 +405,7 @@ function LactoseFreeSection({sourcesRef}) {
                 <p>
                     This plot shows a random set of recipes both lactose free (<span style={{color: "red"}}>red</span>) and not lactose free (<span style={{color: "blue"}}>blue</span>) represented as circles, that are bigger the
                      higher the number of ingredients is. The complexity of each recipe is based on the instructions, more precisely on the verbs. The horizontal lines are the average of complexity of lactose free an not lactose free recipes.
-                    We can observe how lactose free recipes are more complex in terms of instructions than lactose non-free ones. (By clicking in the legend you can remove the recipes of one type.)
+                    We can observe how lactose free recipes are less complex in terms of instructions than lactose non-free ones. (By clicking in the legend you can remove the recipes of one type.)
                 </p>
             </Typography>
             <Typography variant={"h5"}>
@@ -564,7 +564,7 @@ function GlutenFreeSection({sourcesRef}) {
                 <p>
                     This plot shows a random set of recipes both gluten free (<span style={{color: "red"}}>red</span>) and not gluten free (<span style={{color: "blue"}}>blue</span>) represented as circles, that are bigger the
                      higher the number of ingredients is. The complexity of each recipe is based on the instructions, more precisely on the verbs. The horizontal lines are the average of complexity of gluten free an not gluten free recipes.
-                    We can observe how gluten free recipes are more complex in terms of instructions than gluten non-free ones. (By clicking in the legend you can remove the recipes of one type.)
+                    We can observe how gluten free recipes are less complex in terms of instructions than gluten non-free ones. (By clicking in the legend you can remove the recipes of one type.)
                 </p>
             </Typography>
             <Typography variant={"h5"}>
@@ -715,7 +715,7 @@ function IronDeficitSection({sourcesRef}) {
                 <p>
                     This plot shows a random set of recipes both iron rich (<span style={{color: "red"}}>red</span>) and not iron rich (<span style={{color: "blue"}}>blue</span>) represented as circles, that are bigger the
                      higher the number of ingredients is. The complexity of each recipe is based on the instructions, more precisely on the verbs. The horizontal lines are the average of complexity of iron rich an not iron rich recipes.
-                    We can observe how iron rich recipes are slightly less complex in terms of instructions than iron non-rich ones. (By clicking in the legend you can remove the recipes of one type.)
+                    We can observe how iron rich recipes are slightly more complex in terms of instructions than iron non-rich ones. (By clicking in the legend you can remove the recipes of one type.)
                 </p>
                 <Typography variant={"h5"}>
                     Changes in ingredients
