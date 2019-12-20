@@ -1351,8 +1351,9 @@ function DataStory() {
                 </Typography>
                 <Divider/>
                 <Typography className={classes.mainText}>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies interdum ex at efficitur. Ut vitae ante in ipsum consectetur gravida eget vitae sapien. Quisque semper suscipit mi quis volutpat. Donec ligula sem, semper sit amet est eu, tempor faucibus ex. Phasellus lacinia venenatis nunc id volutpat. Fusce quis lacus ut risus semper consectetur eu ac nulla. Suspendisse bibendum dui libero, vitae cursus tellus pharetra ut.
-                        Curabitur at laoreet eros. Sed facilisis eget orci vel bibendum. Praesent urna sem, sollicitudin luctus luctus non, pharetra a erat. Nullam in velit id neque pretium fringilla. Etiam sodales hendrerit sodales. Phasellus sagittis elit id enim scelerisque, quis sollicitudin metus finibus. In hac habitasse platea dictumst. Praesent in neque euismod, suscipit enim nec, dapibus neque. Nullam varius, tellus non imperdiet gravida, orci metus varius sem, sed interdum mauris lorem sed dui. Integer nec nisl accumsan, auctor nisi vel, ultricies nisl.</p>
+                    <p>
+                    The way we eat is going to play a big role on our health and so in our life in general. We have seen that following specific diets can mean much more than it looks like. Eventhough this analysis has some flaws, like we do not take into account the quantity of each ingredient in a recipe, or how popular each recipes is; we hope this can show people with specific diets how to eat in a more balanced and healthy way. At the end of the day, the recipes are there, but it is us who choose which ones to make.
+                    </p>    
                 </Typography>
             </div>
 

@@ -44,6 +44,9 @@ function App() {
             </Switch>
             <Divider/>
             <div className={classNames(classes.section, classes.footer)}>
+                <b>Authors:</b>
+                <br/>
+                Davide Nanni, Torstein Meyer, Fernando Monje and Carlos Villa.
             </div>
         </MuiThemeProvider>
     </Router>
