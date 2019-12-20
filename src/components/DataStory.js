@@ -48,7 +48,9 @@ function VeganSection({sourcesRef}) {
                     Vegan is a diet in which the consumer does not eat any kind of food related to animals.
                     Neither their meat nor their indirect products like milk (and related), eggs or honey.
                 </p>
-                <iframe width={550} height={550} frameBorder={0} src={"./VeganHealth.html"}/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./VeganHealth.html"}/>
+                </div>
                 <p>
                     In this plot we can see, at the same time, the number of recipes reductio due to the diet,
                     as well as the change in the percentage of healthy recipes. The number of recipes is reduced
@@ -58,7 +60,9 @@ function VeganSection({sourcesRef}) {
                     vegan the easiest diet to be healthy. This is mainly caused by the absent of butter and
                     other animal unhelathy products like bacon<Source sourcesRef={sourcesRef}>[6]</Source>.
                 </p>
-                <iframe width={550} height={550} frameBorder={0} src={"./VeganLength.html"}/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./VeganLength.html"}/>
+                </div>
                 <p>
                     This plot shows the average number of ingredients per recipe in the vegan diet and the regular
                     one. There is a reduction in the gluten free diet of 1.7 ingredients per recipe. This is a
@@ -183,7 +187,9 @@ function VegetarianSection({sourcesRef}) {
                     chicken, fish... Vegetarian people do eat egg, milk and other products that are produced by
                     animals.
                 </p>
-                <iframe width={550} height={550} frameBorder={0} src={"./VegetarianHealth.html"}/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./VegetarianHealth.html"}/>
+                </div>
                 <p>
                     In this plot we can see, at the same time, the number of recipes reduction due to the diet,
                     as well as the change in the percentage of healthy recipes. The number of recipes is reduced
@@ -192,8 +198,9 @@ function VegetarianSection({sourcesRef}) {
                     see that the percentage of unhealthy recipes increases from 68.99% to 73.47%, making
                     vegetarian the only diet of the studied ones which makes consumers harder to be healthier.
                 </p>
-                <iframe width={550} height={550} frameBorder={0} src={"./VegetarianLength.html"}/>
-
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./VegetarianLength.html"}/>
+                </div>
                 <p>
                     This plot shows the average number of ingredients per recipe in the vegetarian diet and the
                     regular one. There is a reduction in the vegetarian free diet of 0.8 ingredients per recipe.
@@ -314,7 +321,9 @@ function LactoseFreeSection({sourcesRef}) {
                     Now we will present the conclusions drawn from the analysis of how a lactose
                     free diet changes indirectly the way we eat by analyzing the recipes available for this diet.
                 </p>
-                <iframe width={552} height={550} frameBorder={0} className={classes.plot} src={"./LactoseFreeHealth.html"}/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./LactoseFreeHealth.html"}/>
+                </div>
                 <p>
                     In this plot we can see, at the same time, the number of recipes reduction due to the diet,
                     as well as the change in the percentage of healthy recipes. The number of recipes is reduced
@@ -324,7 +333,9 @@ function LactoseFreeSection({sourcesRef}) {
                     people to eat healthy. This is mainly caused by the absent of butter in the diet, which as
                     we have seen above is a really dominant ingredient.
                 </p>
-                <iframe width={550} height={550} frameBorder={0} src={"./LactoseFreeLength.html"}/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./LactoseFreeLength.html"}/>
+                </div>
                 <p>
                     This plot shows the average number of ingredients per recipe in the lactose free diet and
                     the regular one. There is a slight reduction in the lactose free diet of 0.3 ingredients per
@@ -448,7 +459,9 @@ function GlutenFreeSection({sourcesRef}) {
                     of how a gluten free diet changes indirectly the way we eat by analyzing the recipes
                     available for this diet.
                 </p>
-                <iframe width={550} height={550} frameBorder={0} className={classes.plot} src={"./GlutenFreeHealth.html"}/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./GlutenFreeHealth.html"}/>
+                </div>
                 <p>
                     In this plot we can see, at the same time, the number of recipes reduction due to the diet,
                     as well as the change in the percentage of healthy recipes. The number of recipes is reduced
@@ -458,7 +471,9 @@ function GlutenFreeSection({sourcesRef}) {
                     eat healthy. This is mainly caused by the absent of desserts in the diet, which are mainly
                     made by gluten products.
                 </p>
-                <iframe width={550} height={550} frameBorder={0} src={"./GlutenFreeLength.html"}/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./GlutenFreeLength.html"}/>
+                </div>
                 <p>
                     This plot shows the average number of ingredients per recipe in the gluten free diet and the
                     regular one. There is a reduction in the gluten free diet of 0.5 ingredients per recipe.
@@ -576,7 +591,9 @@ function IronDeficitSection({sourcesRef}) {
                     not extremely low, the way out is changing the diet into a iron rich one. Products rich in
                     iron are for example: Tofu, soy, olives, beef, shellfish... <Source sourcesRef={sourcesRef}>[12, 13]</Source>
                 </p>
-                <iframe width={550} height={550} frameBorder={0} src={"./IronHealth.html"}/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./IronHealth.html"}/>
+                </div>
                 <p>
                     In this plot we can see, at the same time, the number of recipes reduction due to the diet,
                     as well as the change in the percentage of healthy recipes. The number of recipes is reduced
@@ -584,7 +601,9 @@ function IronDeficitSection({sourcesRef}) {
                     of iron is not hard to do. We can also see that the percentage of unhealthy recipes increases
                     from 68.99% to 61.43%, making iron rich diet consumers easier to be healthy.
                 </p>
-                <iframe width={550} height={550} frameBorder={0} src={"./IronLength.html"}/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./IronLength.html"}/>
+                </div>
                 <p>
                     This plot shows the average number of ingredients per recipe in the iron rich diet and the
                     regular one. There is an increase in the iron rich free diet of 1.4 ingredients per recipe.
@@ -707,7 +726,9 @@ function Omega3DeficitSection({sourcesRef}) {
                     atchieved changing into a diet rich in omega 3. Products rich in omega 3 are for example:
                     Salmon, oyster, beans, avocado, soy... <Source sourcesRef={sourcesRef}>[17, 18]</Source>
                 </p>
-                <iframe width={550} height={550} frameBorder={0} src={"./Omega3Health.html"}/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./Omega3Health.html"}/>
+                </div>
                 <p>
                     In this plot we can see, at the same time, the number of recipes reduction due to the diet,
                     as well as the change in the percentage of healthy recipes. The number of recipes is reduced a
@@ -716,7 +737,9 @@ function Omega3DeficitSection({sourcesRef}) {
                     makes . We can also see that the pecentage of unhealthy recipes increases from 68.99% to 60.92%,
                     making omega 3 rich diet consumers easier to be healthy.
                 </p>
-                <iframe width={550} height={550} frameBorder={0} src={"./Omega3Length.html"}/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./Omega3Length.html"}/>
+                </div>
                 <p>
                     This plot shows the average number of ingredients per recipe in the iron rich diet and the
                     regular one. There is an increase in the iron rich free diet of 1,7 ingredients per recipe.
@@ -842,8 +865,9 @@ function MagnesiumDeficitSection({sourcesRef}) {
                     magnesium rich one. Products rich in magnesium are for example: spincah, beans, salmon, tuna,
                     chickpeas... <Source sourcesRef={sourcesRef}>[15, 16]</Source>
                 </p>
-                <iframe width={550} height={550} frameBorder={0} src={"./MagnesiumHealth.html"}/>
-
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./MagnesiumHealth.html"}/>
+                </div>
                 <p>
                     In this plot we can see, at the same time, the number of recipes reduction due to the diet,
                     as well as the change in the percentage of healthy recipes. The number of recipes is reduced a 75%,
@@ -852,8 +876,9 @@ function MagnesiumDeficitSection({sourcesRef}) {
                     also see that the pecentage of unhealthy recipes increases from 68.99% to 66.26%, making magnesium
                     rich diet consumers easier to be healthy.
                 </p>
-                <iframe width={550} height={550} frameBorder={0} src={"./MagnesiumLength.html"}/>
-
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./MagnesiumLength.html"}/>
+                </div>
                 <p>
                     This plot shows the average number of ingredients per recipe in the iron rich diet and the regular
                     one. There is an increase in the iron rich free diet of 1 ingredients per recipe. This is a high
@@ -967,8 +992,9 @@ function SpicySection({sourcesRef}) {
                     Spicy food is not a diet, but considering the popularity of this kind of food <Source sourcesRef={sourcesRef}>[20]</Source>, it can be interesting
                     to treat it as a diet and see the hidden changes on diet when consuming spicy food.
                 </p>
-                <iframe width={550} height={550} frameBorder={0} src={"./SpicyHealth.html"}/>
-
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./SpicyHealth.html"}/>
+                </div>
                 <p>
                     In this plot we can see, at the same time, the number of recipes reduction due to the diet, as well as
                     the change in the percentage of healthy recipes. The number of recipes is reduced a 78%, with a final
@@ -976,8 +1002,10 @@ function SpicySection({sourcesRef}) {
                     do not ever contain spicy food. We can also see that the pecentage of unhealthy recipes increases from
                     68.99% to 62.63%, making spicy meals in general healthier.
                 </p>
-                <iframe width={550} height={550} frameBorder={0} src={"./SpicyLength.html"}/>
-
+                
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./SpicyLength.html"}/>
+                </div>
                 <p>
                     This plot shows the average number of ingredients per recipe in the iron rich diet and the regular one.
                     There is an increase in the iron rich free diet of 2.1 ingredients per recipe. This is a the highest
@@ -1158,7 +1186,9 @@ function GeneralSection({sourcesRef}) {
                 any ingredient (265 ingredients available) with the rest, and more information of its presence in diets.
 
             </p>
-            <iframe width={1000} height={750} frameBorder={0} className={classes.plot} src={"./heatMapOfTop10Ingredients.html"}/>
+            <div style={{width: "100%"}}>
+                <iframe height={500} frameBorder={0} style={{display: "table", width: "500px", margin: "0 auto"}} className={classes.plot} src={"./heatMapOfTop10Ingredients.html"}/>
+            </div>
             <p>
                 Moving on, we now present the analysis in detail of each diet. You will be able to see the healtiness analysis in a
                 more intense way, a complexity analysis of the diet based on the ingredients complexity as well as the
@@ -1181,6 +1211,44 @@ function DataStory() {
 
         setSelectedDiet(value)
     };
+    let vegan = <div></div>;
+    let vegetarian = <div></div>;
+    let lactoseFree = <div></div>;
+    let glutenFree = <div></div>;
+    let ironRich = <div></div>;
+    let omega3Rich = <div></div>;
+    let magnesiumRich = <div></div>;
+    let spicy = <div></div>;
+
+    switch (selectedDiet) {
+        case 0:
+          vegan = <VeganSection sourcesRef={sourcesRef}/>
+          break;
+        case 1:
+          vegetarian = <VegetarianSection sourcesRef={sourcesRef}/>
+          break;
+        case 3:
+            lactoseFree = <LactoseFreeSection sourcesRef={sourcesRef}/>
+            break;
+        case 2:
+            glutenFree = <GlutenFreeSection sourcesRef={sourcesRef}/>
+            break;
+        case 4:
+            ironRich = <IronDeficitSection sourcesRef={sourcesRef}/>
+            break;
+        case 5:
+            omega3Rich = <Omega3DeficitSection sourcesRef={sourcesRef}/>
+            break;
+        case 6:
+            magnesiumRich = <MagnesiumDeficitSection sourcesRef={sourcesRef}/>
+            break;
+        case 7:
+            spicy = <SpicySection sourcesRef={sourcesRef}/>
+            break;
+        default:
+            vegan = <VeganSection sourcesRef={sourcesRef}/>
+            break;
+      }
 
     return (
         <div>
@@ -1218,35 +1286,35 @@ function DataStory() {
                         <Tab label={"Vegetarian"}/>
                         <Tab label={"Gluten free"}/>
                         <Tab label={"Lactose free"}/>
-                        <Tab label={"Iron deficiency"}/>
-                        <Tab label={"Omega 3 deficiency"}/>
-                        <Tab label={"High in magnesium"}/>
+                        <Tab label={"Iron rich"}/>
+                        <Tab label={"Omega 3 rich"}/>
+                        <Tab label={"Magnesium rich"}/>
                         <Tab label={"Spicy"}/>
                     </Tabs>
                 </AppBar>
                 <TabPanel value={0} currentIndex={selectedDiet}>
-                    <VeganSection sourcesRef={sourcesRef}/>
+                    {vegan}
                 </TabPanel>
                 <TabPanel value={1} currentIndex={selectedDiet}>
-                    <VegetarianSection sourcesRef={sourcesRef}/>
+                    {vegetarian}
                 </TabPanel>
                 <TabPanel value={2} currentIndex={selectedDiet}>
-                    <GlutenFreeSection sourcesRef={sourcesRef}/>
+                    {glutenFree}
                 </TabPanel>
                 <TabPanel value={3} currentIndex={selectedDiet}>
-                    <LactoseFreeSection sourcesRef={sourcesRef}/>
+                    {lactoseFree}
                 </TabPanel>
                 <TabPanel value={4} currentIndex={selectedDiet}>
-                    <IronDeficitSection sourcesRef={sourcesRef}/>
+                    {ironRich}
                 </TabPanel>
                 <TabPanel value={5} currentIndex={selectedDiet}>
-                    <Omega3DeficitSection sourcesRef={sourcesRef}/>
+                    {omega3Rich}
                 </TabPanel>
                 <TabPanel value={6} currentIndex={selectedDiet}>
-                    <MagnesiumDeficitSection sourcesRef={sourcesRef}/>
+                    {magnesiumRich}
                 </TabPanel>
                 <TabPanel value={7} currentIndex={selectedDiet}>
-                    <SpicySection sourcesRef={sourcesRef}/>
+                    {spicy}
                 </TabPanel>
 
             </div>
