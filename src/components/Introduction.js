@@ -63,17 +63,17 @@ function GeneralSection({sourcesRef}) {
             <Divider/>
             <p>
                 Let's first take a look at the consideration that our diet has from institutions and the general opinion.
-                Several surveys have been conducted all over Europe in the last two decades, with the goal to better understand
-                how people eating habits evolve over time. That shows a real interest from institutions on the matter. Here we
-                have an overview on the range those eating habits studies:
+                Several surveys have been conducted all over Europe in the last two decades, with the goal of better
+                understanding how people eating habits evolve over time. That shows a real interest from institutions on the
+                matter. Here we have an overview on the range of these eating habits studies:
             </p>
             <iframe width={1000} height={650} className={classes.plot} frameBorder={0} src={"./gant1.html"}/>
             <p>
-                These have been proven useful to spot eating habits trends, thus providing the chance of addressing possible
-                future issues. As an example, the alcohol consumption in Spain has been affected by two opposite trends from
-                early 2000's on: consumption in adults has been decreasing, while consumption in adolescents has increased
-                considerably, so much that it surpassed the adults' value (values are expressed as grams per kilograms of body
-                weight per day):
+                These 59 surveys have been proven useful to spot eating habits trends, thus providing the chance of addressing
+                possible future issues. As an example, it can be shown that the alcohol consumption in Spain has been affected
+                by two opposite trends from early 2000's on: consumption in adults has been decreasing, while consumption in
+                adolescents has increased considerably, so much that it surpassed the adults' consumption level (values are
+                expressed as grams per kilograms of body weight per day):
             </p>
             <img src="alcohol.svg" width={600} style={{width: "50%", marginLeft: "auto", marginRight: "auto", display: "block"}}/>
             <p>
@@ -83,10 +83,10 @@ function GeneralSection({sourcesRef}) {
             </p>
             <iframe width={1000} height={500} className={classes.plot} src={"./UKPyramid.html"}/>
             <p>
-                As we can see, british diet shows a serious lack of vegetables, fruit and grain-based products, but is generally
-                below the recommended values in all the food types included in the food pyramid. That is due to the fact that
-                the model doesn't comprise all possible food categories, like alcoholic beverages, which are overconsumed by the
-                british population.
+                As we can see, british diet shows a serious lack of vegetables, fruit and grain-based products, but is
+                generally below the recommended values in all the food types included in the food pyramid. That is due to the
+                fact that the model doesn't comprise all possible food categories, like alcoholic beverages, which are
+                overconsumed by the british population.
             </p>
             <p>
                 As another example, Spain shows a different scenario:
