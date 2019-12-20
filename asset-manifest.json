@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/food-datastory/static/css/main.983498a7.chunk.css",
-    "main.js": "/food-datastory/static/js/main.abbca343.chunk.js",
-    "main.js.map": "/food-datastory/static/js/main.abbca343.chunk.js.map",
+    "main.js": "/food-datastory/static/js/main.98492754.chunk.js",
+    "main.js.map": "/food-datastory/static/js/main.98492754.chunk.js.map",
     "runtime-main.js": "/food-datastory/static/js/runtime-main.998d1bf9.js",
     "runtime-main.js.map": "/food-datastory/static/js/runtime-main.998d1bf9.js.map",
     "static/css/2.1cad061a.chunk.css": "/food-datastory/static/css/2.1cad061a.chunk.css",
     "static/js/2.65d36876.chunk.js": "/food-datastory/static/js/2.65d36876.chunk.js",
     "static/js/2.65d36876.chunk.js.map": "/food-datastory/static/js/2.65d36876.chunk.js.map",
     "index.html": "/food-datastory/index.html",
-    "precache-manifest.adae8f5be659daacb1d24998ed949514.js": "/food-datastory/precache-manifest.adae8f5be659daacb1d24998ed949514.js",
+    "precache-manifest.78312d3b329f2eecfa82e22631d0be6f.js": "/food-datastory/precache-manifest.78312d3b329f2eecfa82e22631d0be6f.js",
     "service-worker.js": "/food-datastory/service-worker.js",
     "static/css/2.1cad061a.chunk.css.map": "/food-datastory/static/css/2.1cad061a.chunk.css.map",
     "static/css/main.983498a7.chunk.css.map": "/food-datastory/static/css/main.983498a7.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.1cad061a.chunk.css",
     "static/js/2.65d36876.chunk.js",
     "static/css/main.983498a7.chunk.css",
-    "static/js/main.abbca343.chunk.js"
+    "static/js/main.98492754.chunk.js"
   ]
 }
