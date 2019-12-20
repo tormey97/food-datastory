@@ -79,14 +79,80 @@ function VeganSection({sourcesRef}) {
                         completely)
                     </p>
                     <p>
-                        <b>Increase of ingredients</b>: Olive oil, cilantro, vegetables (in general), chickpeas, tofu, lentils.
+                        <b>Increase of ingredients</b>:
+                        <div style={{marginTop: '15px', marginBottom: '15px', whiteSpace: 'nowrap'}}>
+                            <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                                <img src={"images/cilantro.png"} style={{width: '100%'}} alt="Logo" />
+                                <br/>
+                                Cilantro
+                                
+                            </div>
+                            <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                                <img src={"images/vegetables.png"} style={{width: '100%'}} alt="Logo" />
+                                <br/>
+                                Vegetables
+                            </div>
+                            <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                                <img src={"images/olive oil.png"} style={{width: '100%'}} alt="Logo" />
+                                <br/>
+                                Olive oil
+                            </div>
+                            <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                                <img src={"images/chickpeas.png"} style={{width: '100%'}} alt="Logo" />
+                                <br/>
+                                Chickpeas 
+                            </div>
+                            <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                                <img src={"images/tofu.png"} style={{width: '100%'}} alt="Logo" />
+                                <br/>
+                                Tofu
+                            </div>
+                            <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                                <img src={"images/lentils.png"} style={{width: '100%'}} alt="Logo" />
+                                <br/>
+                                Lentils
+                            </div>
+                        </div>
                         All of the ingredients that increase their appearances are really healthy and do not suppose
                         any issue for the consumer. Therefore, no need to be concerned. Actually the increase of
                         products like chickepeas, tofu or lentils is good for a vegan as are the richest products
                         in protein in a vegan diet<Source sourcesRef={sourcesRef}> [7]</Source>.
                     </p>
                     <p>
-                        <b>Decrease of ingredients</b>: Salt, sugar, flour, pasta, bread, noodles.
+                        <b>Decrease of ingredients</b>:
+                        <div style={{marginTop: '15px', marginBottom: '15px', whiteSpace: 'nowrap'}}>
+                            <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                                <img src={"images/salt.png"} style={{width: '100%'}} alt="Logo" />
+                                <br/>
+                                Salt
+                                
+                            </div>
+                            <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                                <img src={"images/sugar.png"} style={{width: '100%'}} alt="Logo" />
+                                <br/>
+                                Sugar
+                            </div>
+                            <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                                <img src={"images/flour.png"} style={{width: '100%'}} alt="Logo" />
+                                <br/>
+                                Flour
+                            </div>
+                            <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                                <img src={"images/pasta.png"} style={{width: '100%'}} alt="Logo" />
+                                <br/>
+                                Pasta 
+                            </div>
+                            <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                                <img src={"images/bread.png"} style={{width: '100%'}} alt="Logo" />
+                                <br/>
+                                Bread
+                            </div>
+                            <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                                <img src={"images/noodles.png"} style={{width: '100%'}} alt="Logo" />
+                                <br/>
+                                Noodles
+                            </div>
+                        </div>
                         Apparently, there is no problem with these decreases. Actually it is good to reduce the
                         consumption of sugar and salt[3]. However, some of the ingredients that decrease are rich
                         in carbohydrates<Source sourcesRef={sourcesRef}>[8]</Source>: Flour (from 23.5% to 7.6%), pasta (from 3.6% to 1.5%), bread
@@ -145,7 +211,40 @@ function VegetarianSection({sourcesRef}) {
                     is reduced completely)
                 </p>
                 <p>
-                    <b>Increase of ingredients</b>: Sugar, butter, eggs, milk, chocolate and baking powder.
+                    <b>Increase of ingredients</b>:
+                    <div style={{marginTop: '15px', marginBottom: '15px', whiteSpace: 'nowrap'}}>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/chocolate.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Chocolate
+                            
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/sugar.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Sugar
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/butter.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Butter
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/egg.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Egg 
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/milk.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Milk
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/baking powder.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Baking powder
+                        </div>
+                    </div>
                     This ingredients explain why the vegetarian diet is more related to unhealthy recipes,
                     as sugar (from 34% to 46%), butter (from 29% to 33%) and chocolate (from 4% to 6.5%) are
                     increased<Source sourcesRef={sourcesRef}> [3]</Source>. The other ingredients are good news.
@@ -155,7 +254,40 @@ function VegetarianSection({sourcesRef}) {
                     to fight this lack of B12 and protein.
                 </p>
                 <p>
-                    <b>Decrease of ingredients</b>: Salt, cheese, olive oil, tomatoes, mushrooms, sauces.
+                    <b>Decrease of ingredients</b>:
+                    <div style={{marginTop: '15px', marginBottom: '15px', whiteSpace: 'nowrap'}}>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/salt.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Salt
+                            
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/cheese.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Cheese
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/olive oil.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Olive oil
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/tomatoes.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Tomatoes 
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/mushrooms.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Mushrooms
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/sauces.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Sauces
+                        </div>
+                    </div>
                     The reduction of salt (from 53% to 49.5%) is always something good <Source sourcesRef={sourcesRef}>[11]</Source>, as is the reduction os sauces, which on theory are not unhealthy, but when bought pre-made, they are. Nevertheless, the rest of the reductions are not good. As said in the ingredients increasing analysis, cheese is a great source of vitamin B12 and protein for vegetarian. Thus, its reduction is not welcomed. Olive oil, tomatoes and mushrooms, are healthy ingredients which reduction is never something good, eventhough they can be replaced.
                 </p>
             </Typography>
@@ -203,7 +335,41 @@ function LactoseFreeSection({sourcesRef}) {
 
             <Typography className={classes.mainText}>
                 <p>
-                    <b>Increase of ingredients</b>: Olive oil, vegetable oil, soy sauce, fish sauce, hoisin sauce, mirin <br/>
+
+                    <b>Increase of ingredients</b>:
+                    <div style={{marginTop: '15px', marginBottom: '15px', whiteSpace: 'nowrap'}}>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/olive oil.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Olive oil
+                            
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/vegetable oil.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Vegetable oil
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/soy sauce.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Soy sauce
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/fish sauce.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Fish sauce
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/hoisin sauce.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Hoisin sauce
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/mirin.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Mirin
+                        </div>
+                    </div>
                     The most concerning ingredient here is the vegetable oil (from 11% to 16%). It is considered
                     as a great source of omega 6 which several investigations have related to cancer issues<Source sourcesRef={sourcesRef}>[1]</Source>.
                     However, the olive oil also increases in the lactose free diet (from 19% to 24.5%). Olive oil
@@ -214,7 +380,40 @@ function LactoseFreeSection({sourcesRef}) {
                     already made, they can have huge amount of unhealthy ingredients and other components.
                 </p>
                 <p>
-                    <b>Decrease of ingredients</b>: Sugar, egg, flour, chocolate, oreo cookies, graham crackers.
+                    <b>Decrease of ingredients</b>: 
+                    <div style={{marginTop: '15px', marginBottom: '15px', whiteSpace: 'nowrap'}}>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/sugar.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Sugar
+                            
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/egg.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Egg
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/flour.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Flour
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/chocolate.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Chocolate
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/oreo.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Oreo cookies
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/graham crackers.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Graham crackers
+                        </div>
+                    </div>
                     The ingredients decreasing are positive due to their unhealthiness, which make sense when
                     seeing the healthy/unhealthy plot above. The big majority of ingredients that decrease their
                     appearances with lactose free diets are those related to deserts. This is good, most of the
@@ -275,12 +474,78 @@ function GlutenFreeSection({sourcesRef}) {
                 ingredients containing gluten such as flour are not taken into account (its consumption is
                 reduced completely)
                 <p>
-                    <b>Increase of ingredients</b>: Pepper, garlic, olive oil, onion, tomatoes and vinegar.
+                    <b>Increase of ingredients</b>:
+                    <div style={{marginTop: '15px', marginBottom: '15px', whiteSpace: 'nowrap'}}>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/pepper.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Pepper
+                            
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/garlic.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Garlic
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/olive oil.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Olive oil
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/onion.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Onion
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/tomatoes.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            tomatoes
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/vinegar.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Vinegar
+                        </div>
+                    </div>
                     All of the ingredients that increase their appearances are really healthy and do not suppose
                     any issue for the consumer. Therefore, no need to be concerned.
                 </p>
                 <p>
-                    <b>Decrease of ingredients</b>: Salt, sugar, butter, egg, milk, and oat.
+                    <b>Decrease of ingredients</b>:
+                    <div style={{marginTop: '15px', marginBottom: '15px', whiteSpace: 'nowrap'}}>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/salt.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Salt
+                            
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/sugar.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Sugar
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/butter.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Butter
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/egg.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Egg 
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/milk.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Milk
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/oat.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Oat
+                        </div>
+                    </div>
                     Apparently, there is no problem with these decreases. Actually is good to reduce the
                     consumption of sugar, butter and salt<Source sourcesRef={sourcesRef}>[3]</Source>. However, some of the ingredients that decrease
                     are rich in protein and B12 vitamin<Source sourcesRef={sourcesRef}>[4]</Source>: Egg (from 27% to 14%), milk (from 14% to 8%), and
@@ -335,7 +600,40 @@ function IronDeficitSection({sourcesRef}) {
                     obviously increase, we are looking for indirect increases and decreases.
                 </p>
                 <p>
-                    <b>Increase of ingredients</b>: Salt, olive oil, garlic, oregano, celery and bay leaf.
+                    <b>Increase of ingredients</b>:
+                    <div style={{marginTop: '15px', marginBottom: '15px', whiteSpace: 'nowrap'}}>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/salt.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Salt
+                            
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/olive oil.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Olive oil
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/garlic.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Garlic
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/oregano.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Oregano 
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/celery.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Celery
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/bay leaf.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Bay leaf
+                        </div>
+                    </div>
                     The only problem with this increases is the salt (from 53% to 60%), as reducing its consumption
                     is highly recomended<Source sourcesRef={sourcesRef}>[11]</Source>. The rest of the ingredients are perfeclty healthy and their increase
                     of consumption do not cause any kind issue. Only mention the curious fact that some of the
@@ -343,7 +641,40 @@ function IronDeficitSection({sourcesRef}) {
                     (from 4% to 6%), garlic (from 27% to 39%), celery (from 5.5% to 9%) and bay leaf (from 2.5% to 5%).
                 </p>
                 <p>
-                    <b>Decrease of ingredients</b>: Sugar, butter, flour, egg, milk, friuts.
+                    <b>Decrease of ingredients</b>: 
+                    <div style={{marginTop: '15px', marginBottom: '15px', whiteSpace: 'nowrap'}}>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/flour.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Flour
+                            
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/sugar.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Sugar
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/butter.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Butter
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/egg.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Egg 
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/milk.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Milk
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/fruits.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Fruits
+                        </div>
+                    </div>
                     The reduction of sugar<Source sourcesRef={sourcesRef}>[3]</Source> (from 34.5% to 22%) and butter (from 29% to 26%) explain why in the
                     above graph, we could see that iron rich diets where less unhealthy in general. The reduction
                     of the consumption egg (from 27% to 21.5%) and milk (from 14% to 11.5%) is not a problem
@@ -401,7 +732,40 @@ function Omega3DeficitSection({sourcesRef}) {
                 </p>
 
                 <p>
-                    Increase of ingredients: Salt, garlic, vegetable oil, olive oil, mayonnaise and spicy food.
+                    <b>Increase of ingredients:</b>
+                    <div style={{marginTop: '15px', marginBottom: '15px', whiteSpace: 'nowrap'}}>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/salt.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Salt
+                            
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/garlic.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Garlic
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/vegetable oil.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Vegetable oil
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/olive oil.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Olive oil 
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/mayonnaise.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Mayonnaise
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/spicy food.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Spicy food
+                        </div>
+                    </div>
                     The increase of salt consumption (from 53% to 57%) is not a good change <Source sourcesRef={sourcesRef}>[11]</Source>, however is not the
                     main concern. The increase of vegetable oil (from 11% to 14%) and mayonnaise (from 4% to 8%) are
                     more threatening for the health of consumers. The vegetable oil is considered as a great source of
@@ -411,7 +775,40 @@ function Omega3DeficitSection({sourcesRef}) {
                     (from 4% to 9.5%), cayenne (from 3% to 5.5%), jalapeno (from 2% to 5%)...
                 </p>
                 <p>
-                    Decrease of ingredients: Sugar, butter, egg, milk, chicken, fruit.
+                    <b>Decrease of ingredients:</b>
+                    <div style={{marginTop: '15px', marginBottom: '15px', whiteSpace: 'nowrap'}}>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/sugar.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Sugar
+                            
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/butter.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Butter
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/egg.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Egg
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/milk.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Milk 
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/chicken.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Chicken
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/fruits.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Fruits
+                        </div>
+                    </div>
                     The reduction of sugar (from 34.5% to 24%) and butter (from 29% to 23%) is a healthy change and
                     explains how the diet overall is healthier than the average diet dispite the increase of vegetable
                     oil. The decrease of egg (from 27% to 22%), milk (from 14% to 8%) and chicken (from 10% to 6.5%)
@@ -467,7 +864,40 @@ function MagnesiumDeficitSection({sourcesRef}) {
                     looking for indirect increases and decreases.
                 </p>
                 <p>
-                    <b>Increase of ingredients</b>: Vanilla, vegetable oil, chocolate, cilantro, wheat germ and tahini.
+                    <b>Increase of ingredients</b>:
+                    <div style={{marginTop: '15px', marginBottom: '15px', whiteSpace: 'nowrap'}}>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/vanilla.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Vanilla
+                            
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/vegetable oil.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Vegetable oil
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/chocolate.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Chocolate
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/cilantro.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Cilantro 
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/wheat germ.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Wheat germ
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/tahini.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Tahini
+                        </div>
+                    </div>
                     Eventhough most ingredients do not vary much, two of the ones that vary are not really healthy.
                     Vegetable oil<Source sourcesRef={sourcesRef}>[1]</Source> (from 11% to 13.5%) and chocolate
                     <Source sourcesRef={sourcesRef}>[3]</Source> (from 4% to 6%) are both unhealthy, but can be
@@ -476,7 +906,40 @@ function MagnesiumDeficitSection({sourcesRef}) {
                     of the ingredients increasing are not important healthy-wise.
                 </p>
                 <p>
-                    <b>Decrease of ingredients</b>: Pepper, parsley, barbacue sauce, pepperoni, pizza sauce, alcoholic products.
+                    <b>Decrease of ingredients</b>:
+                    <div style={{marginTop: '15px', marginBottom: '15px', whiteSpace: 'nowrap'}}>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/pepper.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Pepper
+                            
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/parsley.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Parsley
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/barbacue sauce.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Barbacue sauce
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/pepperoni.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Pepperoni 
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/pizza sauce.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Pizza sauce
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/alcoholic products.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Alcoholic prodcuts
+                        </div>
+                    </div>
                     The reduction of pepper and parsley are not really relevant, and can be countered by using more of
                     them in general. The rest of the reductions are good for our health, explaing why the magnesium rich
                     diet is healthier than the average diet. Sauces, pepperoni <Source sourcesRef={sourcesRef}>[6]</Source>, and alcoholic products (gin, vodka,
@@ -520,7 +983,40 @@ function SpicySection({sourcesRef}) {
                     and decreases.
                 </p>
                 <p>
-                    <b>Increase of ingredients</b>: Salt, meat, oils, sauces, other spicies and beans.
+                    <b>Increase of ingredients</b>:
+                    <div style={{marginTop: '15px', marginBottom: '15px', whiteSpace: 'nowrap'}}>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/salt.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Salt
+                            
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/meat.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Meat
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/oils.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Oils
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/sauces.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Sauces 
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/spices.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Other spices
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/beans.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Beans
+                        </div>
+                    </div>
                     These increases are actually not surprising. With only spicy food, the sweet food is not considered,
                     therefore, increses of salt (from 53% to 64%) and oils are reasonbles. Just make sure the oil used is
                     olive oil and not vegetable oild <Source sourcesRef={sourcesRef}>[1]</Source>. The increase of meat shows how related is to spicy food: chicken
@@ -531,7 +1027,40 @@ function SpicySection({sourcesRef}) {
                     changes are not unhealthy them self.
                 </p>
                 <p>
-                    <b>Decrease of ingredients</b>: Sugar, butter, egg, milk, flour, chocolate.
+                    <b>Decrease of ingredients</b>:
+                    <div style={{marginTop: '15px', marginBottom: '15px', whiteSpace: 'nowrap'}}>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/sugar.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Sugar
+                            
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/butter.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Butter
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/egg.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Egg
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/milk.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Milk 
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/flour.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Flour
+                        </div>
+                        <div style={{width: "10%", marginLeft: "3%", marginRight: '3%', display: 'inline-block', textAlign: 'center', fontSize: 14}}>
+                            <img src={"images/chocolate.png"} style={{width: '100%'}} alt="Logo" />
+                            <br/>
+                            Chocolate
+                        </div>
+                    </div>
                     The decrease of these ingredients does also make sense as in a "spicy diet", all the sweet products
                     are not consumed.
                 </p>
