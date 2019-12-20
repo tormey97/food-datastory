@@ -27,10 +27,10 @@ function Menu() {
     const classes = useStyles();
     return (
         <AppBar>
-            <Toolbar className={classes.toolbar}>
-                <Link className={classes.link} to={process.env.PUBLIC_URL + "/"}><Button className={classes.linkButton}>Data story</Button></Link>
-                <Link className={classes.link} to={process.env.PUBLIC_URL + "/"}><Button className={classes.linkButton}>OpenFoodFacts data story</Button></Link>
-                <Link className={classes.link} to={process.env.PUBLIC_URL + "/search"}><Button className={classes.linkButton}>Ingredient search</Button></Link>
+            <Toolbar className={classes.toolbar} >
+                <Link className={classes.link} to={process.env.PUBLIC_URL + "/"}><Button className={classes.linkButton} style={{color: "white"}}>Introduction</Button></Link>
+                <Link className={classes.link} to={process.env.PUBLIC_URL + "/dataStory"}><Button className={classes.linkButton} style={{color: "white"}}>Data story</Button></Link>
+                <Link className={classes.link} to={process.env.PUBLIC_URL + "/search"}><Button className={classes.linkButton} style={{color: "white"}}>Ingredient search</Button></Link>
             </Toolbar>
         </AppBar>
     );

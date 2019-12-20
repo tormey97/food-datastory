@@ -38,7 +38,7 @@ function Source({children, sourcesRef}) {
 function VeganSection({sourcesRef}) {
     const classes = useStyles();
     return (
-        <>
+        <div style={{padding: "15px"}}>
             <Typography variant={"h5"}>
                 Vegan diet
             </Typography>
@@ -169,14 +169,14 @@ function VeganSection({sourcesRef}) {
                     </p>
                 </Typography>
             </Typography>
-        </>
+        </div>
     )
 }
 
 function VegetarianSection({sourcesRef}) {
     const classes = useStyles();
     return (
-        <>
+        <div style={{padding: "15px"}}>
             <Typography variant={"h5"}>
                 Vegetarian diet
             </Typography>
@@ -301,14 +301,14 @@ function VegetarianSection({sourcesRef}) {
                     The reduction of salt (from 53% to 49.5%) is always something good <Source sourcesRef={sourcesRef}>[11]</Source>, as is the reduction os sauces, which on theory are not unhealthy, but when bought pre-made, they are. Nevertheless, the rest of the reductions are not good. As said in the ingredients increasing analysis, cheese is a great source of vitamin B12 and protein for vegetarian. Thus, its reduction is not welcomed. Olive oil, tomatoes and mushrooms, are healthy ingredients which reduction is never something good, eventhough they can be replaced.
                 </p>
             </Typography>
-        </>
+        </div>
     )
 }
 
 function LactoseFreeSection({sourcesRef}) {
     const classes = useStyles();
     return (
-        <>
+        <div style={{padding: "15px"}}>
             <Typography variant={"h5"}>
                 Lactose free diet
             </Typography>
@@ -436,14 +436,14 @@ function LactoseFreeSection({sourcesRef}) {
                     sure when you make your lactose free cakes and cookies to lower the amount of sugar you put.
                 </p>
             </Typography>
-        </>
+        </div>
     )
 }
 
 function GlutenFreeSection({sourcesRef}) {
     const classes = useStyles();
     return (
-        <>
+        <div style={{padding: "15px"}}>
             <Typography variant={"h5"}>
                 Gluten free diet
             </Typography>
@@ -572,14 +572,14 @@ function GlutenFreeSection({sourcesRef}) {
                     eggs and milk on it.
                 </p>
             </Typography>
-        </>
+        </div>
     )
 }
 
 function IronDeficitSection({sourcesRef}) {
     const classes = useStyles();
     return (
-        <>
+        <div style={{padding: "15px"}}>
             <Typography variant={"h5"}>
                 Iron deficiency
             </Typography>
@@ -708,14 +708,14 @@ function IronDeficitSection({sourcesRef}) {
                     friut as dessert.
                 </p>
             </Typography>
-        </>
+        </div>
     )
 }
 
 function Omega3DeficitSection({sourcesRef}) {
     const classes = useStyles();
     return (
-        <>
+        <div style={{padding: "15px"}}>
             <Typography variant={"h5"}>
                 Omega 3 deficiency
             </Typography>
@@ -845,14 +845,14 @@ function Omega3DeficitSection({sourcesRef}) {
                     This will not be a problem if you just eat friut as dessert.
                 </p>
             </Typography>
-        </>
+        </div>
     )
 }
 
 function MagnesiumDeficitSection({sourcesRef}) {
     const classes = useStyles();
     return (
-        <>
+        <div style={{padding: "15px"}}>
             <Typography variant={"h5"}>
                 Magnesium deficiency
             </Typography>
@@ -979,14 +979,14 @@ function MagnesiumDeficitSection({sourcesRef}) {
                     bourbon...) are not recomended at all.
                 </p>
             </Typography>
-        </>
+        </div>
     )
 }
 
 function SpicySection({sourcesRef}) {
     const classes = useStyles();
     return (
-        <>
+        <div style={{padding: "15px"}}>
             <Typography className={classes.mainText}>
                 <p>
                     Spicy food is not a diet, but considering the popularity of this kind of food <Source sourcesRef={sourcesRef}>[20]</Source>, it can be interesting
@@ -1105,21 +1105,15 @@ function SpicySection({sourcesRef}) {
                     are not consumed.
                 </p>
             </Typography>
-        </>
+        </div>
     )
 }
 
-function GeneralSection({sourcesRef}) {
+
+function IntroductionSection({sourcesRef}) {
     const classes = useStyles();
     return (
         <Typography className={classes.mainText}>
-            <p>
-                Nowadays, huge advances in medicine and nutrition have led us to understand that the way we eat plays the most
-                important role in our health. Following a diet rich in omega 6, for example, will lead us into different
-                diseases, like cancer. Avoiding bad diets is “easily” achieved by eating a great variety of different food,
-                while minimizing the amount of unhealthy meals. However, things can get harder when we have certain
-                restrictions or obligations in our diet, for instance if we have to counter a lack of iron, or if we are vegan.
-            </p>
             <p>
                 In this research we have worked with 779.088 recipes that exist arround the internet to find out hidden
                 relationships between ingredients and diets. We want to know how the diet of people affects their nutrition
@@ -1144,6 +1138,17 @@ function GeneralSection({sourcesRef}) {
 
                 You do not follow any of these diets? Do not leave yet, there are things for you too here...
             </p>
+        </Typography>
+    );
+}
+
+
+function GeneralSection({sourcesRef}) {
+    const classes = useStyles();
+    return (
+        
+        <Typography className={classes.mainText}>
+            
             <p>
                 Firstly, let us present how the number of recipes available changes depending on the diet. In the plot below,
                 you can see for each diet, the number of recipes available and also the percentage compared to the total
@@ -1195,7 +1200,8 @@ function GeneralSection({sourcesRef}) {
                 instruction complexity and, thanks to the correlation of ingredients mention before, an analysis of the
                 consumption shifts caused indirectly by the diet.
             </p>
-        </Typography>)
+        </Typography>
+        )
 
 }
 
@@ -1261,6 +1267,13 @@ function DataStory() {
             <div className={classes.section}>
                 <Typography variant={"h5"}>
                     Introduction
+                </Typography>
+                <Divider/>
+                <IntroductionSection/>
+            </div>
+            <div className={classes.section}>
+                <Typography variant={"h5"}>
+                    General analysis
                 </Typography>
                 <Divider/>
                 <GeneralSection/>
@@ -1337,9 +1350,9 @@ function DataStory() {
                 <Divider/>
                 <Typography className={classes.mainText}>
                     <List>
-                        <ListItem>[1] Guyent, S.J., Carlson, S. E., Evolutionary aspects of diet, the omega-6/omega-3 ratio and genetic variation: nutritional implications for chronic diseases.</ListItem>
-                        <ListItem>[2] Redondo-Cuevas, L., Castellano, G, Revealing the Relationship Between Vegtable Oil Consumption and  Oxidative Stability: A Multifactorial Approach</ListItem>
-                        <ListItem>[3] DiNicolantonio, J.J, Lucan, S.C., The Wrong White Crystals: Not Salt But Sugar As Aetiological in Hypertension and CardioMetabolic Disease</ListItem>
+                        <ListItem>[1] Guyent, S.J., Carlson, S. E., Evolutionary aspects of diet, --The omega-6/omega-3 ratio and genetic variation: nutritional implications for chronic diseases.--</ListItem>
+                        <ListItem>[2] Redondo-Cuevas, L., Castellano, G, --Revealing the Relationship Between Vegtable Oil Consumption and  Oxidative Stability: A Multifactorial Approach--</ListItem>
+                        <ListItem>[3] DiNicolantonio, J.J, Lucan, S.C., --The Wrong White Crystals: Not Salt But Sugar As Aetiological in Hypertension and CardioMetabolic Disease--</ListItem>
                         <ListItem>[4] <Link href={"https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"}>https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/</Link></ListItem>
                         <ListItem>[5] <Link href={"https://www.aaaai.org/conditions-and-treatments/conditions-dictionary/gluten-intolerance"}>https://www.aaaai.org/conditions-and-treatments/conditions-dictionary/gluten-intolerance</Link></ListItem>
                         <ListItem>[6] <Link href={"https://www.cancercouncil.com.au/1in3cancers/lifestyle-choices-and-cancer/red-meat-processed-meat-and-cancer/"}>https://www.cancercouncil.com.au/1in3cancers/lifestyle-choices-and-cancer/red-meat-processed-meat-and-cancer/</Link></ListItem>
@@ -1355,7 +1368,7 @@ function DataStory() {
                         <ListItem>[16] <Link href={"https://www.huffingtonpost.com.au/2017/07/10/what-foods-contain-magnesium_a_23024245/"}>https://www.huffingtonpost.com.au/2017/07/10/what-foods-contain-magnesium_a_23024245/</Link></ListItem>
                         <ListItem>[17] <Link href={"https://www.healthline.com/nutrition/12-omega-3-rich-foods#1"}>https://www.healthline.com/nutrition/12-omega-3-rich-foods#1</Link></ListItem>
                         <ListItem>[18] <Link href={"https://www.medicalnewstoday.com/articles/323144.php#fish-sources-of-omega-3"}>https://www.medicalnewstoday.com/articles/323144.php#fish-sources-of-omega-3</Link></ListItem>
-                        <ListItem>[19] Simopulos, A. P., Evolutionary aspects of diet, the omega-6/omega-3 ratio and genetic variation: nutritional implications for chronic diseases.</ListItem>
+                        <ListItem>[19] Simopulos, A. P., --Evolutionary aspects of diet, the omega-6/omega-3 ratio and genetic variation: nutritional implications for chronic diseases.--</ListItem>
                         <ListItem>[20] <Link href={"https://www.adv-bio.com/rising-popularity-hot-spicy-foods/"}>https://www.adv-bio.com/rising-popularity-hot-spicy-foods/</Link></ListItem>
                         <ListItem>[21] <Link href={"https://www.heartfoundation.org.nz/wellbeing/healthy-eating/nutrition-facts/is-butter-good-for-you"}>https://www.heartfoundation.org.nz/wellbeing/healthy-eating/nutrition-facts/is-butter-good-for-you</Link></ListItem>
                         <ListItem>[22] <Link href={"https://www.encyclopedia.com/sports-and-everyday-life/food-and-drink/food-and-cooking/baking-powder"}>https://www.encyclopedia.com/sports-and-everyday-life/food-and-drink/food-and-cooking/baking-powder</Link></ListItem>

@@ -62,11 +62,12 @@ function Search() {
     return (
         <div>
             <div className={classes.toolbar}/>
-            <div className={classes.section}>
-                <Typography variant={"h5"}>
+            <div className={classes.headerSection}>
+                <Typography variant={"h4"}>
                     Search tool
                 </Typography>
-                <Divider/>
+            </div>
+            <div className={classes.section}>
                 <Typography className={classes.mainText}>
                     <p>We've created a tool that can give the user some interesting information about a selection of ingredients.</p>
                     <p>To use it, simply input an ingredient in the searchbar below. Information about the ingredient will be displayed underneath it.</p>

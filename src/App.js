@@ -2,6 +2,7 @@ import React from 'react';
 import 'typeface-roboto';
 import Menu from "./components/Menu";
 import DataStory from "./components/DataStory";
+import Introduction from "./components/Introduction";
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
 import useStyles from "./styles/main"
@@ -34,8 +35,11 @@ function App() {
                 <Route path={process.env.PUBLIC_URL + "/search"}>
                     <Search/>
                 </Route>
-                <Route path={process.env.PUBLIC_URL + "/"}>
+                <Route path={process.env.PUBLIC_URL + "/dataStory"}>
                     <DataStory/>
+                </Route>
+                <Route path={process.env.PUBLIC_URL + "/"}>
+                    <Introduction/>
                 </Route>
             </Switch>
             <Divider/>
