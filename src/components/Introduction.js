@@ -73,7 +73,7 @@ function GeneralSection({sourcesRef}) {
                 future issues. As an example, the alcohol consumption in Spain has been affected by two opposite trends from
                 early 2000's on: consumption in adults has been decreasing, while consumption in adolescents has increased
                 considerably, so much that it surpassed the adults' value (values are expressed as grams per kilograms of body
-                weight):
+                weight per day):
             </p>
             <img src="alcohol.svg" width={600} style={{width: "50%", marginLeft: "auto", marginRight: "auto", display: "block"}}/>
             <p>
@@ -93,7 +93,7 @@ function GeneralSection({sourcesRef}) {
             </p>
             <iframe width={1000} height={500} className={classes.plot} src={"./spainPyramid.html"}/>
             <p>
-                It can be seen as the spanish population is much more balanced on the pyramid food types, consuming only
+                It can be seen that the spanish population is much more balanced on the pyramid food types, consuming only
                 slightly more meat, seafood, eggs and dairy products than recommended. Similarly as UK, though, their diet
                 shows a lacking in grain-based products, vegetables and fruit.
             </p>
