@@ -1279,13 +1279,6 @@ function DataStory() {
             </div>
             <div className={classes.section}>
                 <Typography variant={"h5"}>
-                    Introduction
-                </Typography>
-                <Divider/>
-                <IntroductionSection/>
-            </div>
-            <div className={classes.section}>
-                <Typography variant={"h5"}>
                     General analysis
                 </Typography>
                 <Divider/>
