@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "393c8468e2bf5d8c5c6adf5275c0cfb3",
+    "revision": "96c61e72db7ed045de099dfddf6d1d21",
     "url": "/food-datastory/index.html"
   },
   {
-    "revision": "b5d115324032320b7e41",
+    "revision": "0f2cf7b07bc211c1e284",
     "url": "/food-datastory/static/css/2.1cad061a.chunk.css"
   },
   {
-    "revision": "7dea988adef5029b58f4",
+    "revision": "362ae55f680754b64a23",
     "url": "/food-datastory/static/css/main.983498a7.chunk.css"
   },
   {
-    "revision": "b5d115324032320b7e41",
-    "url": "/food-datastory/static/js/2.ae0ebe76.chunk.js"
+    "revision": "0f2cf7b07bc211c1e284",
+    "url": "/food-datastory/static/js/2.638d30ba.chunk.js"
   },
   {
     "revision": "3ef9cdbc1081069a6e7f22f1fed8497a",
-    "url": "/food-datastory/static/js/2.ae0ebe76.chunk.js.LICENSE"
+    "url": "/food-datastory/static/js/2.638d30ba.chunk.js.LICENSE"
   },
   {
-    "revision": "7dea988adef5029b58f4",
-    "url": "/food-datastory/static/js/main.8a8e09e9.chunk.js"
+    "revision": "362ae55f680754b64a23",
+    "url": "/food-datastory/static/js/main.12466609.chunk.js"
   },
   {
     "revision": "5fc24069d4fdc892fff1",
