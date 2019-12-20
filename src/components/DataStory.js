@@ -1438,7 +1438,7 @@ function DataStory() {
             <div className={classes.toolbar}/>
             <div className={classes.headerSection}>
                 <Typography variant={"h4"}>
-                    How we eat
+                    Preferences and consequences of diets
                 </Typography>
             </div>
             <div className={classes.section}>
@@ -1446,7 +1446,7 @@ function DataStory() {
                     General analysis
                 </Typography>
                 <Divider/>
-                <GeneralSection/>
+                <GeneralSection sourcesRef={sourcesRef}/>
             </div>
 
             <div className={classes.section}>

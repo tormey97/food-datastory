@@ -131,7 +131,7 @@ function DataStory() {
             <div className={classes.toolbar}/>
             <div className={classes.headerSection}>
                 <Typography variant={"h4"}>
-                    Introduction
+                    Preferences and consequences of diets
                 </Typography>
             </div>
             <div className={classes.section}>
