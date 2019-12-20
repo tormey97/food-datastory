@@ -83,7 +83,7 @@ function VeganSection({sourcesRef}) {
                 </Typography>
                 <Divider/>
                 <div style={{width: "100%"}}>
-                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/VeganPlot.html"}/>
+                    <iframe style={{display: "table", width: "100%", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/VeganPlot.html"}/>
                 </div>
 
                 <p>
@@ -241,7 +241,7 @@ function VegetarianSection({sourcesRef}) {
                 </Typography>
                 <Divider/>
                 <div style={{width: "100%"}}>
-                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/VegetarianPlot.html"}/>
+                    <iframe style={{display: "table", width: "100%", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/vegetarianPlot.html"}/>
                 </div>
 
                 <p>
@@ -399,7 +399,7 @@ function LactoseFreeSection({sourcesRef}) {
                 </Typography>
                 <Divider/>
                 <div style={{width: "100%"}}>
-                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/lacFreePlot.html"}/>
+                    <iframe style={{display: "table", width: "100%", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/lacFreePlot.html"}/>
                 </div>
 
                 <p>
@@ -558,7 +558,7 @@ function GlutenFreeSection({sourcesRef}) {
                 </Typography>
                 <Divider/>
                 <div style={{width: "100%"}}>
-                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/gluFreePlot.html"}/>
+                    <iframe style={{display: "table", width: "100%", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/gluFreePlot.html"}/>
                 </div>
 
                 <p>
@@ -709,7 +709,7 @@ function IronDeficitSection({sourcesRef}) {
                 </Typography>
                 <Divider/>
                 <div style={{width: "100%"}}>
-                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/ironRichPlot.html"}/>
+                    <iframe style={{display: "table", width: "100%", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/ironRichPlot.html"}/>
                 </div>
 
                 <p>
@@ -864,7 +864,7 @@ function Omega3DeficitSection({sourcesRef}) {
                 </Typography>
                 <Divider/>
                 <div style={{width: "100%"}}>
-                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/omegaRichPlot.html"}/>
+                    <iframe style={{display: "table", width: "100%", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/omegaRichPlot.html"}/>
                 </div>
 
                 <p>
@@ -1022,7 +1022,7 @@ function MagnesiumDeficitSection({sourcesRef}) {
                 </Typography>
                 <Divider/>
                 <div style={{width: "100%"}}>
-                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/MagRichPlot.html"}/>
+                    <iframe style={{display: "table", width: "100%", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/MagRichPlot.html"}/>
                 </div>
 
                 <p>
@@ -1172,7 +1172,7 @@ function SpicySection({sourcesRef}) {
                 </Typography>
                 <Divider/>
                 <div style={{width: "100%"}}>
-                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/spicyPlot.html"}/>
+                    <iframe style={{display: "table", width: "100%", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/spicyPlot.html"}/>
                 </div>
 
                 <p>
