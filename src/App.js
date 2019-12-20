@@ -28,7 +28,7 @@ const theme = createMuiTheme({
 function App() {
     const classes = useStyles();
     return (
-    <Router>
+    <Router forceRefresh>
         <MuiThemeProvider theme={theme}>
             <Menu/>
             <Switch>

@@ -101,7 +101,7 @@ function GeneralSection({sourcesRef}) {
                 From this introduction we get that eating behaviours, trends and threir effects are a phenomenon of interest
                 for institutions, but still not well received by the general population. Often people do not consume the
                 recommended quantities of the different food types, which can cause health related issues. A deeper analysis on
-                this aspect awaits you in the followin section.
+                this aspect awaits you in the following section.
             </p>
             <p style={{textAlign: "center"}}>
                 <RouterLink className={classes.link} to={process.env.PUBLIC_URL + "/dataStory"}><Button>Click here to check our data story!</Button></RouterLink>
