@@ -25,7 +25,7 @@ function IntroductionSection({sourcesRef}) {
                 restrictions or obligations in our diet, for instance if we have to counter a lack of iron, or if we are vegan.
             </p>
             <p>
-                In this research we have worked with 779.088 recipes that exist arround the internet to find out hidden
+                In this research we have worked with 779.088 recipes that exist around the internet to find out hidden
                 relationships between ingredients and diets. We want to know how the diet of people affects their nutrition
                 in a way that was unexpected, so it can help these people improve their health. Let's say that, for example,
                 you have a lactose intolerance. You allready know you will not eat milk, cheese, yogurt... But is that it?
@@ -56,30 +56,53 @@ function IntroductionSection({sourcesRef}) {
 function GeneralSection({sourcesRef}) {
     const classes = useStyles();
     return (
-        
         <Typography className={classes.mainText}>
+            <Typography variant={"h5"}>
+                The "Food Business"
+            </Typography>
+            <Divider/>
             <p>
-                BLA BLA
-            </p>
-            <iframe width={1000} height={500} className={classes.plot} src={"./spainPyramid.html"}/>
-            
-            <p>
-                BLA BLA
-            </p>
-            <iframe width={1000} height={500} className={classes.plot} src={"./UKPyramid.html"}/>
-            <p>
-                BLA BLA
+                Let's first take a look at the consideration that our diet has from institutions and the general opinion.
+                Several surveys have been conducted all over Europe in the last two decades, with the goal to better understand
+                how people eating habits evolve over time. That shows a real interest from institutions on the matter. Here we
+                have an overview on the range those eating habits studies:
             </p>
             <iframe width={1000} height={650} className={classes.plot} frameBorder={0} src={"./gant1.html"}/>
             <p>
-                BLA BLA
+                These have been proven useful to spot eating habits trends, thus providing the chance of addressing possible
+                future issues. As an example, the alcohol consumption in Spain has been affected by two opposite trends from
+                early 2000's on: consumption in adults has been decreasing, while consumption in adolescents has increased
+                considerably, so much that it surpassed the adults' value (values are expressed as grams per kilograms of body
+                weight):
             </p>
-            <iframe height={650} frameBorder={0} className={classes.plot} src={"./gant2.html"}/>
+            <img src="alcohol.svg" width={600} style={{width: "50%", marginLeft: "auto", marginRight: "auto", display: "block"}}/>
             <p>
-                BLA BLA
-
+                On the other side, interest on the matter from the general opinion is still far from ideal. Comparing the ideal
+                food pyramid model with the average real one for one country can give a general idea about the food education
+                of a population. For example, we can check the situation in UK:
             </p>
-            
+            <iframe width={1000} height={500} className={classes.plot} src={"./UKPyramid.html"}/>
+            <p>
+                As we can see, british diet shows a serious lack of vegetables, fruit and grain-based products, but is generally
+                below the recommended values in all the food types included in the food pyramid. That is due to the fact that
+                the model doesn't comprise all possible food categories, like alcoholic beverages, which are overconsumed by the
+                british population.
+            </p>
+            <p>
+                As another example, Spain shows a different scenario:
+            </p>
+            <iframe width={1000} height={500} className={classes.plot} src={"./spainPyramid.html"}/>
+            <p>
+                It can be seen as the spanish population is much more balanced on the pyramid food types, consuming only
+                slightly more meat, seafood, eggs and dairy products than recommended. Similarly as UK, though, their diet
+                shows a lacking in grain-based products, vegetables and fruit.
+            </p>
+            <p>
+                From this introduction we get that eating behaviours, trends and threir effects are a phenomenon of interest
+                for institutions, but still not well received by the general population. Often people do not consume the
+                recommended quantities of the different food types, which can cause health related issues. A deeper analysis on
+                this aspect awaits you in the followin section.
+            </p>
             <p style={{textAlign: "center"}}>
                 <RouterLink className={classes.link} to={process.env.PUBLIC_URL + "/dataStory"}><Button>Click here to check our data story!</Button></RouterLink>
             </p>
@@ -114,7 +137,6 @@ function DataStory() {
                 <IntroductionSection/>
             </div>
             <div className={classes.section}>
-                <Divider/>
                 <GeneralSection/>
             </div>
             
