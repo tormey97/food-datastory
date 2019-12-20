@@ -105,6 +105,7 @@ function GeneralSection({sourcesRef}) {
             </p>
             <p style={{textAlign: "center"}}>
                 <RouterLink className={classes.link} to={process.env.PUBLIC_URL + "/dataStory"}><Button>Click here to check our data story!</Button></RouterLink>
+                <RouterLink className={classes.link} to={process.env.PUBLIC_URL + "/search"}><Button>Click here to check our search tool!</Button></RouterLink>
             </p>
         </Typography>
         )

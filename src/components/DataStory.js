@@ -39,7 +39,7 @@ function VeganSection({sourcesRef}) {
     const classes = useStyles();
     return (
         <div style={{padding: "15px"}}>
-            <Typography variant={"h5"}>
+            <Typography variant={"h4"}>
                 Vegan diet
             </Typography>
             <Divider/>
@@ -48,6 +48,10 @@ function VeganSection({sourcesRef}) {
                     Vegan is a diet in which the consumer does not eat any kind of food related to animals.
                     Neither their meat nor their indirect products like milk (and related), eggs or honey.
                 </p>
+                <Typography variant={"h5"}>
+                    Healthiness analysis
+                </Typography>
+                <Divider/>
                 <div style={{width: "100%"}}>
                     <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./VeganHealth.html"}/>
                 </div>
@@ -60,6 +64,10 @@ function VeganSection({sourcesRef}) {
                     vegan the easiest diet to be healthy in. This is mainly caused by the absence of butter and
                     other animal-related unhealthy products like bacon<Source sourcesRef={sourcesRef}>[6]</Source>.
                 </p>
+                <Typography variant={"h5"}>
+                    Number of ingredients
+                </Typography>
+                <Divider/>
                 <div style={{width: "100%"}}>
                     <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./VeganLength.html"}/>
                 </div>
@@ -69,6 +77,19 @@ function VeganSection({sourcesRef}) {
                     significant reduction caused mainly by the lack of bakery due to the lack of egg, butter and
                     milk consumption. However, it is still a surprisingly high value. Being vegan is less
                     complex than it looks in terms of number of ingredients per recipe.
+                </p>
+                <Typography variant={"h5"}>
+                    Complexity of instructions
+                </Typography>
+                <Divider/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/VeganPlot.html"}/>
+                </div>
+
+                <p>
+                    This plot shows a random set of recipes both vegan (<span style={{color: "red"}}>red</span>) and not vegan (<span style={{color: "blue"}}>blue</span>) represented as circles, that are bigger the
+                     higher the number of ingredients is. The complexity of each recipe is based on the instructions, more precisely on the verbs. The horizontal lines are the average of complexity of vegan an not vegan recipes.
+                    We can observe how vegan recipes are less complex in terms of instructions than non-vegan ones. (By clicking in the legend you can remove the recipes of one type.)
                 </p>
 
                 <Typography variant={"h5"}>
@@ -82,7 +103,7 @@ function VeganSection({sourcesRef}) {
                         ingredients vary their rate of appearances in recipes a 80%. This is a huge value, let's see
                         the most important ingredients that change their rate of appearances. Remember that the
                         ingredients not vegan such as eggs are not taken into account (their consumption is reduced
-                        completely)
+                        completely).
                     </p>
                     <p>
                         <b>Increase of ingredients</b>:
@@ -177,7 +198,7 @@ function VegetarianSection({sourcesRef}) {
     const classes = useStyles();
     return (
         <div style={{padding: "15px"}}>
-            <Typography variant={"h5"}>
+            <Typography variant={"h4"}>
                 Vegetarian diet
             </Typography>
             <Divider/>
@@ -187,6 +208,10 @@ function VegetarianSection({sourcesRef}) {
                     chicken, fish... Vegetarians do eat eggs, milk and other products that are produced by
                     animals.
                 </p>
+                <Typography variant={"h5"}>
+                    Healthiness analysis
+                </Typography>
+                <Divider/>
                 <div style={{width: "100%"}}>
                     <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./VegetarianHealth.html"}/>
                 </div>
@@ -198,6 +223,10 @@ function VegetarianSection({sourcesRef}) {
                     see that the percentage of unhealthy recipes increases from 68.99% to 73.47%, making
                     vegetarian the only diet of the studied ones which makes consumers harder to be healthier.
                 </p>
+                <Typography variant={"h5"}>
+                    Number of ingredients
+                </Typography>
+                <Divider/>
                 <div style={{width: "100%"}}>
                     <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./VegetarianLength.html"}/>
                 </div>
@@ -207,8 +236,19 @@ function VegetarianSection({sourcesRef}) {
                     This is a considerably high reduction making vegetarian meals less complex in terms of number
                     of ingredients on them.
                 </p>
+                <Typography variant={"h5"}>
+                    Complexity of instructions
+                </Typography>
+                <Divider/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/VegetarianPlot.html"}/>
+                </div>
 
-
+                <p>
+                    This plot shows a random set of recipes both vegetarian (<span style={{color: "red"}}>red</span>) and not vegetarian (<span style={{color: "blue"}}>blue</span>) represented as circles, that are bigger the
+                     higher the number of ingredients is. The complexity of each recipe is based on the instructions, more precisely on the verbs. The horizontal lines are the average of complexity of vegetarian an not vegetarian recipes.
+                    We can observe how vegetarian recipes are practically equally complex in terms of instructions than non-vegetarian ones. (By clicking in the legend you can remove the recipes of one type.)
+                </p>
                 <Typography variant={"h5"}>
                     Changes in ingredients
                 </Typography>
@@ -314,7 +354,7 @@ function LactoseFreeSection({sourcesRef}) {
     const classes = useStyles();
     return (
         <div style={{padding: "15px"}}>
-            <Typography variant={"h5"}>
+            <Typography variant={"h4"}>
                 Lactose free diet
             </Typography>
             <Divider/>
@@ -326,6 +366,10 @@ function LactoseFreeSection({sourcesRef}) {
                     Now we will present the conclusions drawn from the analysis of how a lactose
                     free diet indirectly changes the way we eat by analyzing the recipes available for this diet.
                 </p>
+                <Typography variant={"h5"}>
+                    Healthiness analysis
+                </Typography>
+                <Divider/>
                 <div style={{width: "100%"}}>
                     <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./LactoseFreeHealth.html"}/>
                 </div>
@@ -338,6 +382,10 @@ function LactoseFreeSection({sourcesRef}) {
                     people to eat healthy. This is mainly caused by the absence of butter in the diet, which as
                     we have seen above is a really dominant ingredient.
                 </p>
+                <Typography variant={"h5"}>
+                    Number of ingredients
+                </Typography>
+                <Divider/>
                 <div style={{width: "100%"}}>
                     <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./LactoseFreeLength.html"}/>
                 </div>
@@ -346,7 +394,19 @@ function LactoseFreeSection({sourcesRef}) {
                     the regular one. There is a slight reduction in the lactose free diet of 0.3 ingredients per
                     recipe. Nothing really remarkable.
                 </p>
+                <Typography variant={"h5"}>
+                    Complexity of instructions
+                </Typography>
+                <Divider/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/lacFreePlot.html"}/>
+                </div>
 
+                <p>
+                    This plot shows a random set of recipes both lactose free (<span style={{color: "red"}}>red</span>) and not lactose free (<span style={{color: "blue"}}>blue</span>) represented as circles, that are bigger the
+                     higher the number of ingredients is. The complexity of each recipe is based on the instructions, more precisely on the verbs. The horizontal lines are the average of complexity of lactose free an not lactose free recipes.
+                    We can observe how lactose free recipes are less complex in terms of instructions than lactose non-free ones. (By clicking in the legend you can remove the recipes of one type.)
+                </p>
             </Typography>
             <Typography variant={"h5"}>
                 Changes in ingredients
@@ -449,7 +509,7 @@ function GlutenFreeSection({sourcesRef}) {
     const classes = useStyles();
     return (
         <div style={{padding: "15px"}}>
-            <Typography variant={"h5"}>
+            <Typography variant={"h4"}>
                 Gluten free diet
             </Typography>
             <Divider/>
@@ -464,6 +524,10 @@ function GlutenFreeSection({sourcesRef}) {
                     of how a gluten free diet changes indirectly the way we eat by analyzing the recipes
                     available for this diet.
                 </p>
+                <Typography variant={"h5"}>
+                    Healthiness analysis
+                </Typography>
+                <Divider/>
                 <div style={{width: "100%"}}>
                     <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./GlutenFreeHealth.html"}/>
                 </div>
@@ -476,6 +540,10 @@ function GlutenFreeSection({sourcesRef}) {
                     eat healthy. This is mainly caused by the absence of desserts in the diet, which are mainly
                     made using products containing gluten.
                 </p>
+                <Typography variant={"h5"}>
+                    Number of ingredients
+                </Typography>
+                <Divider/>
                 <div style={{width: "100%"}}>
                     <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./GlutenFreeLength.html"}/>
                 </div>
@@ -484,6 +552,19 @@ function GlutenFreeSection({sourcesRef}) {
                     regular one. There is a reduction in the gluten free diet of 0.5 ingredients per recipe.
                     This is again caused by the absence of desserts in the diet, meals that contain a high number
                     of ingredients.
+                </p>
+                <Typography variant={"h5"}>
+                    Complexity of instructions
+                </Typography>
+                <Divider/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/gluFreePlot.html"}/>
+                </div>
+
+                <p>
+                    This plot shows a random set of recipes both gluten free (<span style={{color: "red"}}>red</span>) and not gluten free (<span style={{color: "blue"}}>blue</span>) represented as circles, that are bigger the
+                     higher the number of ingredients is. The complexity of each recipe is based on the instructions, more precisely on the verbs. The horizontal lines are the average of complexity of gluten free an not gluten free recipes.
+                    We can observe how gluten free recipes are less complex in terms of instructions than gluten non-free ones. (By clicking in the legend you can remove the recipes of one type.)
                 </p>
             </Typography>
             <Typography variant={"h5"}>
@@ -585,7 +666,7 @@ function IronDeficitSection({sourcesRef}) {
     const classes = useStyles();
     return (
         <div style={{padding: "15px"}}>
-            <Typography variant={"h5"}>
+            <Typography variant={"h4"}>
                 Iron deficiency
             </Typography>
             <Divider/>
@@ -596,6 +677,10 @@ function IronDeficitSection({sourcesRef}) {
                     not extremely low, the way out is changing the diet into a iron rich one. Products rich in
                     iron are for example: Tofu, soy, olives, beef, shellfish... <Source sourcesRef={sourcesRef}>[12, 13]</Source>
                 </p>
+                <Typography variant={"h5"}>
+                    Healthiness analysis
+                </Typography>
+                <Divider/>
                 <div style={{width: "100%"}}>
                     <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./IronHealth.html"}/>
                 </div>
@@ -606,6 +691,10 @@ function IronDeficitSection({sourcesRef}) {
                     of iron is not hard to do. We can also see that the percentage of unhealthy recipes decreases
                     from 68.99% to 61.43%, making it easier for iron rich diet consumers to be healthy.
                 </p>
+                <Typography variant={"h5"}>
+                    Number of ingredients
+                </Typography>
+                <Divider/>
                 <div style={{width: "100%"}}>
                     <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./IronLength.html"}/>
                 </div>
@@ -615,7 +704,19 @@ function IronDeficitSection({sourcesRef}) {
                     This is a really high increase making iron rich meals much more complex in terms of the number
                     of ingredients in them.
                 </p>
+                <Typography variant={"h5"}>
+                    Complexity of instructions
+                </Typography>
+                <Divider/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/ironRichPlot.html"}/>
+                </div>
 
+                <p>
+                    This plot shows a random set of recipes both iron rich (<span style={{color: "red"}}>red</span>) and not iron rich (<span style={{color: "blue"}}>blue</span>) represented as circles, that are bigger the
+                     higher the number of ingredients is. The complexity of each recipe is based on the instructions, more precisely on the verbs. The horizontal lines are the average of complexity of iron rich an not iron rich recipes.
+                    We can observe how iron rich recipes are slightly more complex in terms of instructions than iron non-rich ones. (By clicking in the legend you can remove the recipes of one type.)
+                </p>
                 <Typography variant={"h5"}>
                     Changes in ingredients
                 </Typography>
@@ -721,7 +822,7 @@ function Omega3DeficitSection({sourcesRef}) {
     const classes = useStyles();
     return (
         <div style={{padding: "15px"}}>
-            <Typography variant={"h5"}>
+            <Typography variant={"h4"}>
                 Omega 3 deficiency
             </Typography>
             <Divider/>
@@ -731,6 +832,9 @@ function Omega3DeficitSection({sourcesRef}) {
                     by changing into a diet rich in omega 3. Products rich in omega 3 are for example:
                     Salmon, oyster, beans, avocado, soy... <Source sourcesRef={sourcesRef}>[17, 18]</Source>
                 </p>
+                <Typography variant={"h5"}>
+                    Healthiness analysis
+                </Typography>
                 <div style={{width: "100%"}}>
                     <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./Omega3Health.html"}/>
                 </div>
@@ -742,6 +846,10 @@ function Omega3DeficitSection({sourcesRef}) {
                     makes. We can also see that the percentage of unhealthy recipes decreases from 68.99% to 60.92%,
                     making it easier for omega 3 rich diet consumers to be healthy.
                 </p>
+                <Typography variant={"h5"}>
+                    Number of ingredients
+                </Typography>
+                <Divider/>
                 <div style={{width: "100%"}}>
                     <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./Omega3Length.html"}/>
                 </div>
@@ -750,6 +858,19 @@ function Omega3DeficitSection({sourcesRef}) {
                     regular one. There is an increase in the omega 3 rich diet of 1,7 ingredients per recipe.
                     This is a really high increase, making omega 3 rich meals more complex in terms of the number of
                     ingredients in them.
+                </p>
+                <Typography variant={"h5"}>
+                    Complexity of instructions
+                </Typography>
+                <Divider/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/omegaRichPlot.html"}/>
+                </div>
+
+                <p>
+                    This plot shows a random set of recipes both omega 3 rich (<span style={{color: "red"}}>red</span>) and not omega 3 rich (<span style={{color: "blue"}}>blue</span>) represented as circles, that are bigger the
+                     higher the number of ingredients is. The complexity of each recipe is based on the instructions, more precisely on the verbs. The horizontal lines are the average of complexity of omega 3 rich an not omega 3 rich recipes.
+                    We can observe how omega 3 rich recipes are practically equally complex in terms of instructions than omega 3 non-rich ones. (By clicking in the legend you can remove the recipes of one type.)
                 </p>
                 <Typography variant={"h5"}>
                     Changes in ingredients
@@ -858,7 +979,7 @@ function MagnesiumDeficitSection({sourcesRef}) {
     const classes = useStyles();
     return (
         <div style={{padding: "15px"}}>
-            <Typography variant={"h5"}>
+            <Typography variant={"h4"}>
                 Magnesium deficiency
             </Typography>
             <Divider/>
@@ -870,6 +991,9 @@ function MagnesiumDeficitSection({sourcesRef}) {
                     magnesium rich one. Products rich in magnesium are for example: spinach, beans, salmon, tuna,
                     chickpeas... <Source sourcesRef={sourcesRef}>[15, 16]</Source>
                 </p>
+                <Typography variant={"h5"}>
+                    Healthiness analysis
+                </Typography>
                 <div style={{width: "100%"}}>
                     <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./MagnesiumHealth.html"}/>
                 </div>
@@ -881,6 +1005,10 @@ function MagnesiumDeficitSection({sourcesRef}) {
                     also see that the percentage of unhealthy recipes increases from 68.99% to 66.26%, making it easier for magnesium
                     rich diet consumers to be healthy.
                 </p>
+                <Typography variant={"h5"}>
+                    Number of ingredients
+                </Typography>
+                <Divider/>
                 <div style={{width: "100%"}}>
                     <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./MagnesiumLength.html"}/>
                 </div>
@@ -888,6 +1016,19 @@ function MagnesiumDeficitSection({sourcesRef}) {
                     This plot shows the average number of ingredients per recipe in the magnesium diet and the regular
                     one. There is an increase in the magnesium rich diet of 1 ingredients per recipe. This is a high
                     increase making magnesium rich meals more complex in terms of number of ingredients in them.
+                </p>
+                <Typography variant={"h5"}>
+                    Complexity of instructions
+                </Typography>
+                <Divider/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/MagRichPlot.html"}/>
+                </div>
+
+                <p>
+                    This plot shows a random set of recipes both magnesium rich (<span style={{color: "red"}}>red</span>) and not magnesium rich (<span style={{color: "blue"}}>blue</span>) represented as circles, that are bigger the
+                     higher the number of ingredients is. The complexity of each recipe is based on the instructions, more precisely on the verbs. The horizontal lines are the average of complexity of magnesium rich an not magnesium rich recipes.
+                    We can observe how magnesium rich recipes are practically equally complex in terms of instructions than magnesium non-rich ones. (By clicking in the legend you can remove the recipes of one type.)
                 </p>
                 <Typography variant={"h5"}>
                     Changes in ingredients
@@ -992,11 +1133,18 @@ function SpicySection({sourcesRef}) {
     const classes = useStyles();
     return (
         <div style={{padding: "15px"}}>
+            <Typography variant={"h4"}>
+                Spicy 
+            </Typography>
+            <Divider/>
             <Typography className={classes.mainText}>
                 <p>
                     Spicy food is not a diet, but considering the popularity of this kind of food <Source sourcesRef={sourcesRef}>[20]</Source>, it can be interesting
                     to treat it as a diet and see the hidden changes in the diet when consuming spicy food.
                 </p>
+                <Typography variant={"h5"}>
+                    Healthiness analysis
+                </Typography>
                 <div style={{width: "100%"}}>
                     <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./SpicyHealth.html"}/>
                 </div>
@@ -1007,7 +1155,10 @@ function SpicySection({sourcesRef}) {
                     do not ever contain spicy food. We can also see that the percentage of unhealthy recipes increases from
                     68.99% to 62.63%, making spicy meals in general healthier.
                 </p>
-
+                <Typography variant={"h5"}>
+                    Number of ingredients
+                </Typography>
+                <Divider/>
                 <div style={{width: "100%"}}>
                     <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={550} frameBorder={0} src={"./SpicyLength.html"}/>
                 </div>
@@ -1015,6 +1166,19 @@ function SpicySection({sourcesRef}) {
                     This plot shows the average number of ingredients per recipe in the iron rich diet and the regular one.
                     There is an increase in the iron rich free diet of 2.1 ingredients per recipe. This is the highest
                     increase of all the diets, making spicy food the most complex in terms of number of ingredients per recipe.
+                </p>
+                <Typography variant={"h5"}>
+                    Complexity of instructions
+                </Typography>
+                <Divider/>
+                <div style={{width: "100%"}}>
+                    <iframe style={{display: "table", width: "520px", margin: "0 auto"}} height={700} frameBorder={0} src={"./plots/spicyPlot.html"}/>
+                </div>
+
+                <p>
+                    This plot shows a random set of recipes both spicy (<span style={{color: "red"}}>red</span>) and not spicy (<span style={{color: "blue"}}>blue</span>) represented as circles, that are bigger the
+                     higher the number of ingredients is. The complexity of each recipe is based on the instructions, more precisely on the verbs. The horizontal lines are the average of complexity of spicy an not spicy recipes.
+                    We can observe how spicy recipes are practically equally complex in terms of instructions than magnesium non-rich ones. (By clicking in the legend you can remove the recipes of one type.)
                 </p>
                 <Typography variant={"h5"}>
                     Changes in ingredients
@@ -1291,8 +1455,10 @@ function DataStory() {
                 </Typography>
                 <Divider/>
                 <Typography className={classes.mainText}>
-                    <p>There are many common diets that people adhere to. We have chosen seven of them in order to make our analysis more comprehensive and feasible.
-                        Out of the seven we have chosen, three are dietary restrictions - that is, a diet that excludes certain ingredients, such as veganism. The remaining four are dietary recommendations for people who may lack a certain nutrient, e.g. iron.</p>
+                    <p>
+                        There are many common diets that people adhere to. We have chosen seven of them in order to make our analysis more comprehensive and feasible.
+                        In this next part you will be able to see the analysis carried out for each of the selected recipes: Healthiness analysis, complexity analysis (both in terms of number of ingredients and complexity of instructions) and finaly how the consumption of other ingredients is affected indirectly.
+                    </p>
                 </Typography>
                 <AppBar position={"static"} color={"default"}>
                     <Tabs
