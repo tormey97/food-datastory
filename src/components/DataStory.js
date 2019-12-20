@@ -9,6 +9,8 @@ import Link from "@material-ui/core/Link/Link";
 import Button from "@material-ui/core/Button/Button";
 import List from "@material-ui/core/List/List";
 import ListItem from "@material-ui/core/ListItem/ListItem";
+import {Link as RouterLink} from "react-router-dom"
+import Paper from "@material-ui/core/Paper/Paper";
 
 const scrollToRef = (ref) => {
     console.log(ref);
@@ -27,9 +29,9 @@ function TabPanel({value, currentIndex, children}) {
 
 function Source({children, sourcesRef}) {
     return (
-            <Link style={{cursor: "pointer"}} onClick={() => {scrollToRef(sourcesRef)}}>
-                {children}
-            </Link>
+        <Link style={{cursor: "pointer"}} onClick={() => {scrollToRef(sourcesRef)}}>
+            {children}
+        </Link>
     )
 }
 
@@ -46,7 +48,7 @@ function VeganSection({sourcesRef}) {
                     Vegan is a diet in which the consumer does not eat any kind of food related to animals.
                     Neither their meat nor their indirect products like milk (and related), eggs or honey.
                 </p>
-                TODO PLOT 1
+                <iframe width={550} height={550} frameBorder={0} src={"./VeganHealth.html"}/>
                 <p>
                     In this plot we can see, at the same time, the number of recipes reductio due to the diet,
                     as well as the change in the percentage of healthy recipes. The number of recipes is reduced
@@ -56,7 +58,7 @@ function VeganSection({sourcesRef}) {
                     vegan the easiest diet to be healthy. This is mainly caused by the absent of butter and
                     other animal unhelathy products like bacon<Source sourcesRef={sourcesRef}>[6]</Source>.
                 </p>
-                TODO PLOT 2
+                <iframe width={550} height={550} frameBorder={0} src={"./VeganLength.html"}/>
                 <p>
                     This plot shows the average number of ingredients per recipe in the vegan diet and the regular
                     one. There is a reduction in the gluten free diet of 1.7 ingredients per recipe. This is a
@@ -106,7 +108,7 @@ function VegetarianSection({sourcesRef}) {
     return (
         <>
             <Typography variant={"h5"}>
-            Vegetarian diet
+                Vegetarian diet
             </Typography>
             <Divider/>
             <Typography className={classes.mainText}>
@@ -115,7 +117,7 @@ function VegetarianSection({sourcesRef}) {
                     chicken, fish... Vegetarian people do eat egg, milk and other products that are produced by
                     animals.
                 </p>
-                TODO -- PLOT 1 --
+                <iframe width={550} height={550} frameBorder={0} src={"./VegetarianHealth.html"}/>
                 <p>
                     In this plot we can see, at the same time, the number of recipes reduction due to the diet,
                     as well as the change in the percentage of healthy recipes. The number of recipes is reduced
@@ -124,7 +126,8 @@ function VegetarianSection({sourcesRef}) {
                     see that the percentage of unhealthy recipes increases from 68.99% to 73.47%, making
                     vegetarian the only diet of the studied ones which makes consumers harder to be healthier.
                 </p>
-                TODO -- PLOT 2 --
+                <iframe width={550} height={550} frameBorder={0} src={"./VegetarianLength.html"}/>
+
                 <p>
                     This plot shows the average number of ingredients per recipe in the vegetarian diet and the
                     regular one. There is a reduction in the vegetarian free diet of 0.8 ingredients per recipe.
@@ -179,7 +182,7 @@ function LactoseFreeSection({sourcesRef}) {
                     Now we will present the conclusions drawn from the analysis of how a lactose
                     free diet changes indirectly the way we eat by analyzing the recipes available for this diet.
                 </p>
-                <iframe width={900} height={550} frameBorder={0} src={"./lactoseFreeHealthyness.html"}/>
+                <iframe width={552} height={550} frameBorder={0} className={classes.plot} src={"./LactoseFreeHealth.html"}/>
                 <p>
                     In this plot we can see, at the same time, the number of recipes reduction due to the diet,
                     as well as the change in the percentage of healthy recipes. The number of recipes is reduced
@@ -189,6 +192,7 @@ function LactoseFreeSection({sourcesRef}) {
                     people to eat healthy. This is mainly caused by the absent of butter in the diet, which as
                     we have seen above is a really dominant ingredient.
                 </p>
+                <iframe width={550} height={550} frameBorder={0} src={"./LactoseFreeLength.html"}/>
                 <p>
                     This plot shows the average number of ingredients per recipe in the lactose free diet and
                     the regular one. There is a slight reduction in the lactose free diet of 0.3 ingredients per
@@ -245,7 +249,7 @@ function GlutenFreeSection({sourcesRef}) {
                     of how a gluten free diet changes indirectly the way we eat by analyzing the recipes
                     available for this diet.
                 </p>
-                TODO PLOT 1
+                <iframe width={550} height={550} frameBorder={0} className={classes.plot} src={"./GlutenFreeHealth.html"}/>
                 <p>
                     In this plot we can see, at the same time, the number of recipes reduction due to the diet,
                     as well as the change in the percentage of healthy recipes. The number of recipes is reduced
@@ -255,7 +259,7 @@ function GlutenFreeSection({sourcesRef}) {
                     eat healthy. This is mainly caused by the absent of desserts in the diet, which are mainly
                     made by gluten products.
                 </p>
-                TODO PLOT 2
+                <iframe width={550} height={550} frameBorder={0} src={"./GlutenFreeLength.html"}/>
                 <p>
                     This plot shows the average number of ingredients per recipe in the gluten free diet and the
                     regular one. There is a reduction in the gluten free diet of 0.5 ingredients per recipe.
@@ -307,7 +311,7 @@ function IronDeficitSection({sourcesRef}) {
                     not extremely low, the way out is changing the diet into a iron rich one. Products rich in
                     iron are for example: Tofu, soy, olives, beef, shellfish... <Source sourcesRef={sourcesRef}>[12, 13]</Source>
                 </p>
-                -- PlOT 1 --
+                <iframe width={550} height={550} frameBorder={0} src={"./IronHealth.html"}/>
                 <p>
                     In this plot we can see, at the same time, the number of recipes reduction due to the diet,
                     as well as the change in the percentage of healthy recipes. The number of recipes is reduced
@@ -315,7 +319,7 @@ function IronDeficitSection({sourcesRef}) {
                     of iron is not hard to do. We can also see that the percentage of unhealthy recipes increases
                     from 68.99% to 61.43%, making iron rich diet consumers easier to be healthy.
                 </p>
-                -- PLOT 2 --
+                <iframe width={550} height={550} frameBorder={0} src={"./IronLength.html"}/>
                 <p>
                     This plot shows the average number of ingredients per recipe in the iron rich diet and the
                     regular one. There is an increase in the iron rich free diet of 1.4 ingredients per recipe.
@@ -372,7 +376,7 @@ function Omega3DeficitSection({sourcesRef}) {
                     atchieved changing into a diet rich in omega 3. Products rich in omega 3 are for example:
                     Salmon, oyster, beans, avocado, soy... <Source sourcesRef={sourcesRef}>[17, 18]</Source>
                 </p>
-                -- PlOT 1 --
+                <iframe width={550} height={550} frameBorder={0} src={"./Omega3Health.html"}/>
                 <p>
                     In this plot we can see, at the same time, the number of recipes reduction due to the diet,
                     as well as the change in the percentage of healthy recipes. The number of recipes is reduced a
@@ -381,7 +385,7 @@ function Omega3DeficitSection({sourcesRef}) {
                     makes . We can also see that the pecentage of unhealthy recipes increases from 68.99% to 60.92%,
                     making omega 3 rich diet consumers easier to be healthy.
                 </p>
-                -- PLOT 2 --
+                <iframe width={550} height={550} frameBorder={0} src={"./Omega3Length.html"}/>
                 <p>
                     This plot shows the average number of ingredients per recipe in the iron rich diet and the
                     regular one. There is an increase in the iron rich free diet of 1,7 ingredients per recipe.
@@ -441,6 +445,8 @@ function MagnesiumDeficitSection({sourcesRef}) {
                     magnesium rich one. Products rich in magnesium are for example: spincah, beans, salmon, tuna,
                     chickpeas... <Source sourcesRef={sourcesRef}>[15, 16]</Source>
                 </p>
+                <iframe width={550} height={550} frameBorder={0} src={"./MagnesiumHealth.html"}/>
+
                 <p>
                     In this plot we can see, at the same time, the number of recipes reduction due to the diet,
                     as well as the change in the percentage of healthy recipes. The number of recipes is reduced a 75%,
@@ -449,6 +455,8 @@ function MagnesiumDeficitSection({sourcesRef}) {
                     also see that the pecentage of unhealthy recipes increases from 68.99% to 66.26%, making magnesium
                     rich diet consumers easier to be healthy.
                 </p>
+                <iframe width={550} height={550} frameBorder={0} src={"./MagnesiumLength.html"}/>
+
                 <p>
                     This plot shows the average number of ingredients per recipe in the iron rich diet and the regular
                     one. There is an increase in the iron rich free diet of 1 ingredients per recipe. This is a high
@@ -459,7 +467,7 @@ function MagnesiumDeficitSection({sourcesRef}) {
                 </Typography>
                 <Divider/>
                 <p>
-                     When comparing the magnesium rich diet with the regular one, we can see that on average, ingredients
+                    When comparing the magnesium rich diet with the regular one, we can see that on average, ingredients
                     vary their rate of appearances in recipes a 13%. This is a really low value which will make the
                     analysis more boring but will be good news for those following this diet. Let's see the most
                     important ingredients that change their rate of appearances. Remember that the ingredients rich in
@@ -496,6 +504,8 @@ function SpicySection({sourcesRef}) {
                     Spicy food is not a diet, but considering the popularity of this kind of food <Source sourcesRef={sourcesRef}>[20]</Source>, it can be interesting
                     to treat it as a diet and see the hidden changes on diet when consuming spicy food.
                 </p>
+                <iframe width={550} height={550} frameBorder={0} src={"./SpicyHealth.html"}/>
+
                 <p>
                     In this plot we can see, at the same time, the number of recipes reduction due to the diet, as well as
                     the change in the percentage of healthy recipes. The number of recipes is reduced a 78%, with a final
@@ -503,6 +513,8 @@ function SpicySection({sourcesRef}) {
                     do not ever contain spicy food. We can also see that the pecentage of unhealthy recipes increases from
                     68.99% to 62.63%, making spicy meals in general healthier.
                 </p>
+                <iframe width={550} height={550} frameBorder={0} src={"./SpicyLength.html"}/>
+
                 <p>
                     This plot shows the average number of ingredients per recipe in the iron rich diet and the regular one.
                     There is an increase in the iron rich free diet of 2.1 ingredients per recipe. This is a the highest
@@ -586,9 +598,9 @@ function GeneralSection({sourcesRef}) {
                 <Source sourcesRef={sourcesRef}>[19]</Source>, and we
                 can see how hard is to find recipes rich in omega 3 with only a 11% of the total number of recipes.
             </p>
-                barplot of num recipes
+            <iframe width={1000} height={500} className={classes.plot} src={"./recipesPerDiet.html"}/>
             <p>
-                We have labeled recipes as healthy or unhealthy based on their ingredients [ref] as we wanted to see how did
+                We have labeled recipes as healthy or unhealthy based on their ingredients <Source sourcesRef={sourcesRef}>[21-34]</Source> as we wanted to see how did
                 the percentage of healthy recipes changed depending on your diet. If you are a vegan or vegetarian you will
                 for sure eat more vegetables, however, this does not mean you will be more healthy, there are plenty of
                 products vegans or vegetarians can eat that are considered as unhealthy. Actually, as you can see in the
@@ -597,7 +609,7 @@ function GeneralSection({sourcesRef}) {
                 healthy-to-unhealthy ratio. However, we are still far away from a good situation, as in every diet more than
                 half of the recipes contain unhealthy ingredients.
             </p>
-                barplot of healthiness
+            <iframe width={1000} height={500} className={classes.plot} frameBorder={0} src={"./healthinessPerDiet.html"}/>
             <p>
                 You may woneder how is this posible. Howcome so many recipes are unhealthy. The answer is easier than you
                 think. Nowadays, we base our diet in a few ingredients that can be found in a lot of the recipes out there.
@@ -606,19 +618,18 @@ function GeneralSection({sourcesRef}) {
                 ingredients condition the way we eat much more than a group of the non-dominant ones. Some of them, like
                 sugar (2nd) or butter (4th) are considered as unhealthy, and that why many recipes are so unhealthy.
             </p>
-            scatterplot
+            <iframe height={500} frameBorder={0} className={classes.plot} src={"./scatterPlotIngredients.html"}/>
             <p>
                 Now, having seen all this, we have done an analysis of the relationships between ingredients, how much ingredients
                 are correlated with each other. This way we can study how the restriction of spcific ingredients affects the
                 consumption rate of others and at the end, our nutrition. Below you can see as an example, a heatmap that
                 shows the relationship of the dominant ingredients, whose relationships are the most important of the
                 analysis. If you want to look for information on a spcific ingredient, because you are alergic, you do not
-                like it, or you love it too much, check out our awsome search tool! There you will find the relationship of
+                like it, or you love it too much, check out our awsome <RouterLink className={classes.link} to={process.env.PUBLIC_URL + "/search"}>search tool!</RouterLink> There you will find the relationship of
                 any ingredient (265 ingredients available) with the rest, and more information of its presence in diets.
 
             </p>
-            heatmap
-
+            <iframe width={1000} height={750} frameBorder={0} className={classes.plot} src={"./heatMapOfTop10Ingredients.html"}/>
             <p>
                 Moving on, we now present the analysis in detail of each diet. You will be able to see the healtiness analysis in a
                 more intense way, a complexity analysis of the diet based on the ingredients complexity as well as the
@@ -655,12 +666,7 @@ function DataStory() {
                     Introduction
                 </Typography>
                 <Divider/>
-               <GeneralSection/>
-                {/*<iframe width={1000} height={500} frameBorder={0} src={"./healthinessPerDiet.html"}/>
-                <iframe width={1000} height={500} frameBorder={0} src={"./heatMapOfTop10Ingredients.html"}/>
-                <iframe width={1000} height={500} frameBorder={0} src={"./recipesPerDiet.html"}/>
-                <iframe width={1000} height={500} frameBorder={0} src={"./scatterPlotIngredients.html"}/>
-                <iframe width={1000} height={500} frameBorder={0} src={"./top10Ingredients.html"}/>*/}
+                <GeneralSection/>
             </div>
 
             <div className={classes.section}>
@@ -705,7 +711,7 @@ function DataStory() {
                     <IronDeficitSection sourcesRef={sourcesRef}/>
                 </TabPanel>
                 <TabPanel value={5} currentIndex={selectedDiet}>
-                   <Omega3DeficitSection sourcesRef={sourcesRef}/>
+                    <Omega3DeficitSection sourcesRef={sourcesRef}/>
                 </TabPanel>
                 <TabPanel value={6} currentIndex={selectedDiet}>
                     <MagnesiumDeficitSection sourcesRef={sourcesRef}/>
@@ -725,9 +731,6 @@ function DataStory() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies interdum ex at efficitur. Ut vitae ante in ipsum consectetur gravida eget vitae sapien. Quisque semper suscipit mi quis volutpat. Donec ligula sem, semper sit amet est eu, tempor faucibus ex. Phasellus lacinia venenatis nunc id volutpat. Fusce quis lacus ut risus semper consectetur eu ac nulla. Suspendisse bibendum dui libero, vitae cursus tellus pharetra ut.
                         Curabitur at laoreet eros. Sed facilisis eget orci vel bibendum. Praesent urna sem, sollicitudin luctus luctus non, pharetra a erat. Nullam in velit id neque pretium fringilla. Etiam sodales hendrerit sodales. Phasellus sagittis elit id enim scelerisque, quis sollicitudin metus finibus. In hac habitasse platea dictumst. Praesent in neque euismod, suscipit enim nec, dapibus neque. Nullam varius, tellus non imperdiet gravida, orci metus varius sem, sed interdum mauris lorem sed dui. Integer nec nisl accumsan, auctor nisi vel, ultricies nisl.</p>
                 </Typography>
-                {/*<iframe width={1000} height={500} frameBorder={0} src={"./gant2.html"}/>
-                <iframe width={1000} height={500} frameBorder={0} src={"./spainPyramid.html"}/>
-                <iframe width={1000} height={500} frameBorder={0} src={"./UKPyramid.html"}/>*/}
             </div>
 
             <div className={classes.section} ref={sourcesRef}>
@@ -757,7 +760,20 @@ function DataStory() {
                         <ListItem>[18] <Link href={"https://www.medicalnewstoday.com/articles/323144.php#fish-sources-of-omega-3"}>https://www.medicalnewstoday.com/articles/323144.php#fish-sources-of-omega-3</Link></ListItem>
                         <ListItem>[19] Simopulos, A. P., Evolutionary aspects of diet, the omega-6/omega-3 ratio and genetic variation: nutritional implications for chronic diseases.</ListItem>
                         <ListItem>[20] <Link href={"https://www.adv-bio.com/rising-popularity-hot-spicy-foods/"}>https://www.adv-bio.com/rising-popularity-hot-spicy-foods/</Link></ListItem>
-
+                        <ListItem>[21] <Link href={"https://www.heartfoundation.org.nz/wellbeing/healthy-eating/nutrition-facts/is-butter-good-for-you"}>https://www.heartfoundation.org.nz/wellbeing/healthy-eating/nutrition-facts/is-butter-good-for-you</Link></ListItem>
+                        <ListItem>[22] <Link href={"https://www.encyclopedia.com/sports-and-everyday-life/food-and-drink/food-and-cooking/baking-powder"}>https://www.encyclopedia.com/sports-and-everyday-life/food-and-drink/food-and-cooking/baking-powder</Link></ListItem>
+                        <ListItem>[23] <Link href={"https://www.philadelphia.es/productos/philadelphia-original/philadelphia-original?p=243&provider=%7BD193998A-4A6D-4EA5-BAA8-209357B27A09%7D&categoryId=18842"}>https://www.philadelphia.es/productos/philadelphia-original/philadelphia-original?p=243&provider=%7BD193998A-4A6D-4EA5-BAA8-209357B27A09%7D&categoryId=18842</Link></ListItem>
+                        <ListItem>[24] <Link href={"http://www.heinzfoodservice.ca/en/products-and-brands/dressings/heinz/76000767"}>http://www.heinzfoodservice.ca/en/products-and-brands/dressings/heinz/76000767</Link></ListItem>
+                        <ListItem>[25] <Link href={"https://www.healthline.com/nutrition/is-bacon-bad-or-good#section8"}>https://www.healthline.com/nutrition/is-bacon-bad-or-good#section8</Link></ListItem>
+                        <ListItem>[26] <Link href={"http://www.prairiemoon.biz/sycoin.html"}>http://www.prairiemoon.biz/sycoin.html</Link></ListItem>
+                        <ListItem>[27] <Link href={"https://www.alexfergus.com/blog/11-reasons-to-avoid-margarine"}>https://www.alexfergus.com/blog/11-reasons-to-avoid-margarine</Link></ListItem>
+                        <ListItem>[28] <Link href={"https://www.heinz.com/product/00013000004640"}>https://www.heinz.com/product/00013000004640</Link></ListItem>
+                        <ListItem>[29] <Link href={"https://www.healthline.com/nutrition/shortening"}>https://www.healthline.com/nutrition/shortening</Link></ListItem>
+                        <ListItem>[30] <Link href={"https://spoonuniversity.com/lifestyle/what-is-in-peanut-butter-look-for-simple-ingredients"}>https://spoonuniversity.com/lifestyle/what-is-in-peanut-butter-look-for-simple-ingredients</Link></ListItem>
+                        <ListItem>[31] <Link href={"https://www.thedailymeal.com/eat/cool-whip-much-less-healthy-real-whipped-cream"}>https://www.thedailymeal.com/eat/cool-whip-much-less-healthy-real-whipped-cream</Link></ListItem>
+                        <ListItem>[32] <Link href={"https://www.healthline.com/nutrition/alcohol-good-or-bad"}>https://www.healthline.com/nutrition/alcohol-good-or-bad</Link></ListItem>
+                        <ListItem>[33] <Link href={"http://www.heinzfoodservice.ca/en/products-and-brands/dips/heinz/76001001"}>http://www.heinzfoodservice.ca/en/products-and-brands/dips/heinz/76001001</Link></ListItem>
+                        <ListItem>[34]<Link href={"https://www.healthline.com/nutrition/why-processed-meat-is-bad"}>https://www.healthline.com/nutrition/why-processed-meat-is-bad</Link></ListItem>
                     </List>
                 </Typography>
             </div>

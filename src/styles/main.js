@@ -5,7 +5,7 @@ const useStyles = makeStyles(theme => {
     return ({
         section: {
             padding: "0 15% 0 15%",
-            marginTop: 40
+            marginTop: 40,
         },
         headerSection: {
             height: 120,
@@ -23,9 +23,22 @@ const useStyles = makeStyles(theme => {
         tabSection: {
             marginTop: 10,
             padding: 6,
-            backgroundColor: "#EEE",
+            display: "inline",
+            border: "1px solid #DDD",
             borderRadius: 6,
         },
+        tabSectionBackground: {
+            backgroundColor: "#EEE",
+            borderRadius: 6,
+            position: "absolute",
+            width: "100%",
+            height: "100%",
+            display: "block",
+            top: 0,
+            left: 0,
+            zIndex: 1,
+        },
+
         footer: {
             height: 100,
         },
@@ -35,6 +48,12 @@ const useStyles = makeStyles(theme => {
         },
         dietCheckboxList: {
             listStyleType: "none"
+        },
+        plot: {
+            border: "0px outset " + theme.palette.primary.A100,
+            borderRadius: "5px",
+            width: "100%",
+            display: "inline"
         }
     })});
 
