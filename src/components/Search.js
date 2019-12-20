@@ -126,13 +126,13 @@ function Search() {
                                             Ingredient
                                         </TableCell>
                                         <TableCell>
-                                            Frequency with {currentIngredient}
+                                            Frequency with {currentIngredient} (%)
                                         </TableCell>
                                         <TableCell>
-                                            Overall frequency
+                                            Overall frequency (%)
                                         </TableCell>
                                         <TableCell>
-                                            Relative frequency with {currentIngredient}
+                                            Relative frequency with {currentIngredient} (%)
                                         </TableCell>
                                     </TableRow>
                                 </TableHead>
@@ -152,19 +152,19 @@ function Search() {
                                                     <TableCell>
                                                         <MuiTooltip title={value + " occurs in " + (correlationWithIngredient * 100).toFixed(1) + "% of recipes with " + currentIngredient} arrow>
                                                             <span>
-                                                                {correlationWithIngredient}
+                                                                {Math.round(correlationWithIngredient*100000)/1000}
                                                             </span>
                                                         </MuiTooltip>
                                                     </TableCell>
                                                     <TableCell>
                                                         <MuiTooltip title={value + " occurs in " + (generalFrequency * 100).toFixed(1) + "% of all recipes"} arrow>
                                                             <span>
-                                                                {generalFrequency}
+                                                                {Math.round(generalFrequency*100000)/1000}
                                                             </span>
                                                         </MuiTooltip>
                                                     </TableCell>
                                                     <TableCell>
-                                                        {relativeFrequency}
+                                                        {Math.round(relativeFrequency*100000)/1000}
                                                     </TableCell>
                                                 </TableRow>
                                             }
