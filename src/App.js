@@ -24,21 +24,34 @@ const theme = createMuiTheme({
         secondary: secondaryColor,
     },
 });
+function handleUpdate() {
+    let {
+      action
+    } = this.state.location;
+  
+    if (action === 'PUSH') {
+      window.scrollTo(0, 0);
+    }
+  }
+  const ScrollToTop = () => {
+    window.scrollTo(0, 0);
+    return null;
+  };
 
 function App() {
     const classes = useStyles();
     return (
-    <Router>
+        <Router forceRefresh onUpdate={handleUpdate}>
         <MuiThemeProvider theme={theme}>
             <Menu/>
             <Switch>
-                <Route path={process.env.PUBLIC_URL + "/search"}>
+                <Route component={ScrollToTop} path={process.env.PUBLIC_URL + "/search"}>
                     <Search/>
                 </Route>
-                <Route path={process.env.PUBLIC_URL + "/dataStory"}>
+                <Route component={ScrollToTop} path={process.env.PUBLIC_URL + "/dataStory"}>
                     <DataStory/>
                 </Route>
-                <Route path={process.env.PUBLIC_URL + "/"}>
+                <Route component={ScrollToTop} path={process.env.PUBLIC_URL + "/"}>
                     <Introduction/>
                 </Route>
             </Switch>

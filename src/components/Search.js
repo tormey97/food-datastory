@@ -107,7 +107,7 @@ function Search() {
                             }
                             </ul>
                             <Typography>
-                                <p>The following bar graph shows how frequently <b>{currentIngredient}</b> is used in the recipes that fall into each dietary category:</p>
+                                <p>The following bar graph shows how frequently <b>{currentIngredient}</b> is used in the recipes that fall into each dietary category (out of 779.088 recipes):</p>
                             </Typography>
                             <BarChart width={800} height={400} data={dietFreqData}>
                                 <XAxis dataKey="name" tick={{fontSize: 12}} interval={0} />
