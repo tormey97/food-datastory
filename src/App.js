@@ -41,7 +41,7 @@ function handleUpdate() {
 function App() {
     const classes = useStyles();
     return (
-        <Router forceRefresh onUpdate={handleUpdate}>
+    <Router forceRefresh>
         <MuiThemeProvider theme={theme}>
             <Menu/>
             <Switch>
